@@ -1,0 +1,233 @@
+{
+  "header": {
+    "portfolioTitle": "Adarsh Singh",
+    "darkMode": "Modo Oscuro",
+    "nav": {
+      "blogs": "Blogs",
+      "projects": "Proyectos",
+      "contributions": "Código Abierto"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Adarsh Singh. Todos los derechos reservados."
+  },
+  "pages": {
+    "home": {
+      "title": "Inicio"
+    },
+    "blogs": {
+      "title": "Publicaciones del Blog",
+      "subtitle": "Pensamientos, tutoriales y conocimientos sobre desarrollo web y tecnología."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "subtitle": "Una colección de mis proyectos de código abierto y trabajo personal en GitHub."
+    },
+    "contributions": {
+      "title": "Contribuciones de Código Abierto",
+      "subtitle": "Mis contribuciones a la comunidad de código abierto a través de código, documentación y participación comunitaria."
+    }
+  },
+  "landingCard": {
+    "title": "Inicia sesión en tu cuenta",
+    "description": "Ingresa tu correo electrónico a continuación para iniciar sesión en tu cuenta",
+    "signUp": "Registrarse",
+    "content": "Prueba",
+    "footer": "Pie de página"
+  },
+  "blog": {
+    "posts": [
+      {
+        "title": "Comenzando con Next.js 15",
+        "description": "Aprende a crear aplicaciones web modernas con las últimas características de Next.js 15, incluyendo mejor rendimiento y nuevas rutas de API.",
+        "date": "15 de marzo, 2024"
+      },
+      {
+        "title": "Dominando React Server Components",
+        "description": "Profundiza en React Server Components y cómo revolucionan la forma en que pensamos sobre la renderización del lado del servidor y la interactividad del cliente.",
+        "date": "10 de marzo, 2024"
+      },
+      {
+        "title": "Construyendo Interfaces Hermosas con Tailwind CSS",
+        "description": "Explora técnicas avanzadas de Tailwind CSS para crear interfaces de usuario impresionantes y responsivas que se vean geniales en cualquier dispositivo.",
+        "date": "5 de marzo, 2024"
+      },
+      {
+        "title": "Mejores Prácticas de TypeScript para React",
+        "description": "Descubre patrones y prácticas esenciales de TypeScript que harán que tus aplicaciones React sean más mantenibles y type-safe.",
+        "date": "28 de febrero, 2024"
+      },
+      {
+        "title": "Optimizando el Rendimiento Web",
+        "description": "Aprende estrategias y técnicas probadas para optimizar tus aplicaciones web para máximo rendimiento y mejor experiencia de usuario.",
+        "date": "20 de febrero, 2024"
+      },
+      {
+        "title": "Gestión de Estado Moderna en React",
+        "description": "Compara diferentes soluciones de gestión de estado para aplicaciones React y aprende cuándo usar cada enfoque de manera efectiva.",
+        "date": "15 de febrero, 2024"
+      }
+    ]
+  },
+  "projects": {
+    "viewOnGitHub": "Ver en GitHub",
+    "liveDemo": "Demo en Vivo",
+    "items": [
+      {
+        "name": "Neo Elektra Reproductor de Audio",
+        "description": "Reproductor de audio multiplataforma construido con Electron y Node.js, proporcionando una interfaz moderna para reproducción de música en diferentes sistemas operativos.",
+        "techStack": ["Electron", "Node.js", "JavaScript", "Multiplataforma"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-elektra-audio-player",
+        "liveUrl": ""
+      },
+      {
+        "name": "Tutoriales React Champ",
+        "description": "Serie completa de tutoriales de React que cubre componentes controlados, fundamentos de React y mejores prácticas para desarrollo moderno de React.",
+        "techStack": ["React", "JavaScript", "Create React App", "Tutorial"],
+        "githubUrl": "https://github.com/adarshsingh1407/react-champ",
+        "liveUrl": ""
+      },
+      {
+        "name": "Scraper de Google News",
+        "description": "Scraper de Google News basado en TypeScript que extrae y procesa artículos de noticias de la API de Google News con estructura de datos limpia.",
+        "techStack": ["TypeScript", "Node.js", "Web Scraping", "News API"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-google-news-scraper",
+        "liveUrl": ""
+      },
+      {
+        "name": "Aplicación de Quiz con Hooks",
+        "description": "Aplicación web de quiz interactiva construida con React Hooks, Redux y Redux-Saga para manejo de estado y efectos secundarios.",
+        "techStack": ["React", "Redux", "Redux-Saga", "React Hooks"],
+        "githubUrl": "https://github.com/adarshsingh1407/quiz-hooks",
+        "liveUrl": ""
+      },
+      {
+        "name": "Apollo Federation Multiplataforma",
+        "description": "Starter pack de GraphQL que demuestra la implementación de Apollo Federation usando servidores SpringBoot y Node.js para arquitectura de microservicios.",
+        "techStack": ["GraphQL", "Apollo Federation", "Java", "Node.js"],
+        "githubUrl": "https://github.com/adarshsingh1407/federation-cross-platform",
+        "liveUrl": ""
+      },
+      {
+        "name": "React Desarrollo Dirigido por Pruebas",
+        "description": "Aplicación React construida usando metodología de Desarrollo Dirigido por Pruebas (TDD) con cobertura de pruebas completa usando Jest y Enzyme.",
+        "techStack": ["React", "Jest", "Enzyme", "TDD", "Testing"],
+        "githubUrl": "https://github.com/adarshsingh1407/react-test-driven",
+        "liveUrl": ""
+      },
+      {
+        "name": "Neo CRA (SSR + PWA)",
+        "description": "Código base para Progressive Web App renderizada en servidor en React con herramientas de construcción modernas y técnicas de optimización.",
+        "techStack": ["React", "Redux", "Express", "PWA", "SSR"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-cra",
+        "liveUrl": ""
+      },
+      {
+        "name": "Neo Caballero Solitario",
+        "description": "Juego de ajedrez interactivo con un caballero solitario con funcionalidad de arrastrar y soltar construido usando React y Redux.",
+        "techStack": ["React", "Redux", "React DnD", "Juego de Ajedrez"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-lonely-knight",
+        "liveUrl": ""
+      },
+      {
+        "name": "Reproductor de Audio Next.js",
+        "description": "Reproductor de audio moderno construido con Next.js y React, con renderizado del lado del servidor y rendimiento optimizado.",
+        "techStack": ["Next.js", "React", "JavaScript", "Reproductor de Audio"],
+        "githubUrl": "https://github.com/adarshsingh1407/nextjs-audio-player",
+        "liveUrl": ""
+      }
+    ]
+  },
+  "contributions": {
+    "viewContribution": "Ver Contribución",
+    "viewPackage": "Ver Paquete",
+    "viewAnswer": "Ver Respuesta",
+    "viewPR": "Ver Pull Request",
+    "merged": "Fusionado",
+    "published": "Publicado",
+    "accepted": "Aceptado",
+    "items": [
+      {
+        "type": "pull_request",
+        "title": "Agregar soporte TypeScript a React Router",
+        "repository": "remix-run/react-router",
+        "description": "Implementé definiciones completas de TypeScript para React Router v6, mejorando la experiencia del desarrollador y la seguridad de tipos.",
+        "url": "https://github.com/remix-run/react-router/pull/8234",
+        "stats": {
+          "additions": 342,
+          "deletions": 89,
+          "commits": 7
+        },
+        "status": "merged",
+        "date": "Febrero 2024"
+      },
+      {
+        "type": "npm_package",
+        "title": "react-form-validator",
+        "description": "Una librería de validación de formularios ligera y personalizable para React sin dependencias y con soporte TypeScript.",
+        "url": "https://www.npmjs.com/package/@adarshsingh/react-form-validator",
+        "stats": {
+          "downloads": "15.2k",
+          "version": "2.1.4",
+          "stars": 127
+        },
+        "status": "published",
+        "date": "Enero 2024"
+      },
+      {
+        "type": "issue",
+        "title": "Fuga de memoria en cleanup de useEffect",
+        "repository": "facebook/react",
+        "description": "Identifiqué y reporté un problema de fuga de memoria en la función cleanup de useEffect de React 18 con pasos detallados de reproducción.",
+        "url": "https://github.com/facebook/react/issues/24532",
+        "stats": {
+          "comments": 23,
+          "reactions": 47,
+          "labels": ["Bug", "React 18"]
+        },
+        "status": "accepted",
+        "date": "Diciembre 2023"
+      },
+      {
+        "type": "stackoverflow",
+        "title": "¿Cómo optimizar re-renders de componentes React?",
+        "description": "Respuesta completa cubriendo React.memo, useMemo, useCallback y técnicas avanzadas de optimización con ejemplos prácticos.",
+        "url": "https://stackoverflow.com/questions/65432187/how-to-optimize-react-component-re-renders/65432987#65432987",
+        "stats": {
+          "upvotes": 234,
+          "views": "45.2k",
+          "bookmarks": 89
+        },
+        "status": "accepted",
+        "date": "Noviembre 2023"
+      },
+      {
+        "type": "pull_request",
+        "title": "Mejorar accesibilidad en componentes Tailwind CSS",
+        "repository": "tailwindlabs/tailwindcss",
+        "description": "Mejoré características de accesibilidad para componentes de formulario, agregué etiquetas ARIA y mejoré el soporte de navegación por teclado.",
+        "url": "https://github.com/tailwindlabs/tailwindcss/pull/9876",
+        "stats": {
+          "additions": 156,
+          "deletions": 23,
+          "commits": 4
+        },
+        "status": "merged",
+        "date": "Octubre 2023"
+      },
+      {
+        "type": "npm_package",
+        "title": "node-error-handler",
+        "description": "Middleware de manejo de errores listo para producción para aplicaciones Express.js con logging, notificaciones y características de recuperación.",
+        "url": "https://www.npmjs.com/package/@adarshsingh/node-error-handler",
+        "stats": {
+          "downloads": "8.7k",
+          "version": "1.3.2",
+          "stars": 76
+        },
+        "status": "published",
+        "date": "Septiembre 2023"
+      }
+    ]
+  }
+}

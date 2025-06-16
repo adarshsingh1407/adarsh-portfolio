@@ -1,0 +1,233 @@
+{
+  "header": {
+    "portfolioTitle": "Adarsh Singh",
+    "darkMode": "Dark Mode",
+    "nav": {
+      "blogs": "Blogs",
+      "projects": "Projects",
+      "contributions": "Open Source"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Adarsh Singh. All rights reserved."
+  },
+  "pages": {
+    "home": {
+      "title": "Home"
+    },
+    "blogs": {
+      "title": "Blog Posts",
+      "subtitle": "Thoughts, tutorials, and insights about web development and technology."
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "A collection of my open-source projects and personal work on GitHub."
+    },
+    "contributions": {
+      "title": "Open Source Contributions",
+      "subtitle": "My contributions to the open source community through code, documentation, and community engagement."
+    }
+  },
+  "landingCard": {
+    "title": "Login to your account",
+    "description": "Enter your email below to login to your account",
+    "signUp": "Sign Up",
+    "content": "Test",
+    "footer": "Footer"
+  },
+  "blog": {
+    "posts": [
+      {
+        "title": "Getting Started with Next.js 15",
+        "description": "Learn how to build modern web applications with the latest features in Next.js 15, including improved performance and new API routes.",
+        "date": "March 15, 2024"
+      },
+      {
+        "title": "Mastering React Server Components",
+        "description": "Deep dive into React Server Components and how they revolutionize the way we think about server-side rendering and client-side interactivity.",
+        "date": "March 10, 2024"
+      },
+      {
+        "title": "Building Beautiful UIs with Tailwind CSS",
+        "description": "Explore advanced Tailwind CSS techniques to create stunning, responsive user interfaces that look great on any device.",
+        "date": "March 5, 2024"
+      },
+      {
+        "title": "TypeScript Best Practices for React",
+        "description": "Discover essential TypeScript patterns and practices that will make your React applications more maintainable and type-safe.",
+        "date": "February 28, 2024"
+      },
+      {
+        "title": "Optimizing Web Performance",
+        "description": "Learn proven strategies and techniques to optimize your web applications for maximum performance and better user experience.",
+        "date": "February 20, 2024"
+      },
+      {
+        "title": "Modern State Management in React",
+        "description": "Compare different state management solutions for React applications and learn when to use each approach effectively.",
+        "date": "February 15, 2024"
+      }
+    ]
+  },
+  "projects": {
+    "viewOnGitHub": "View on GitHub",
+    "liveDemo": "Live Demo",
+    "items": [
+      {
+        "name": "Neo Elektra Audio Player",
+        "description": "Cross-platform audio player built with Electron and Node.js, providing a modern interface for music playback across different operating systems.",
+        "techStack": ["Electron", "Node.js", "JavaScript", "Cross-platform"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-elektra-audio-player",
+        "liveUrl": ""
+      },
+      {
+        "name": "React Champ Tutorials",
+        "description": "Comprehensive React tutorial series covering controlled components, React fundamentals, and best practices for modern React development.",
+        "techStack": ["React", "JavaScript", "Create React App", "Tutorial"],
+        "githubUrl": "https://github.com/adarshsingh1407/react-champ",
+        "liveUrl": ""
+      },
+      {
+        "name": "Google News Scraper",
+        "description": "TypeScript-based Google News scraper that extracts and processes news articles from Google News API with clean data structure.",
+        "techStack": ["TypeScript", "Node.js", "Web Scraping", "News API"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-google-news-scraper",
+        "liveUrl": ""
+      },
+      {
+        "name": "Quiz App with Hooks",
+        "description": "Interactive quiz web application built with React Hooks, Redux, and Redux-Saga for state management and side effects handling.",
+        "techStack": ["React", "Redux", "Redux-Saga", "React Hooks"],
+        "githubUrl": "https://github.com/adarshsingh1407/quiz-hooks",
+        "liveUrl": ""
+      },
+      {
+        "name": "Apollo Federation Cross-Platform",
+        "description": "GraphQL starter pack demonstrating Apollo Federation implementation using SpringBoot and Node.js servers for microservices architecture.",
+        "techStack": ["GraphQL", "Apollo Federation", "Java", "Node.js"],
+        "githubUrl": "https://github.com/adarshsingh1407/federation-cross-platform",
+        "liveUrl": ""
+      },
+      {
+        "name": "React Test Driven Development",
+        "description": "React application built using Test Driven Development (TDD) methodology with comprehensive test coverage using Jest and Enzyme.",
+        "techStack": ["React", "Jest", "Enzyme", "TDD", "Testing"],
+        "githubUrl": "https://github.com/adarshsingh1407/react-test-driven",
+        "liveUrl": ""
+      },
+      {
+        "name": "Neo CRA (SSR + PWA)",
+        "description": "Boilerplate code for server-rendered Progressive Web App in React with modern build tools and optimization techniques.",
+        "techStack": ["React", "Redux", "Express", "PWA", "SSR"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-cra",
+        "liveUrl": ""
+      },
+      {
+        "name": "Neo Lonely Knight",
+        "description": "Interactive chess game featuring a lonely knight with drag-and-drop functionality built using React and Redux.",
+        "techStack": ["React", "Redux", "React DnD", "Chess Game"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-lonely-knight",
+        "liveUrl": ""
+      },
+      {
+        "name": "Next.js Audio Player",
+        "description": "Modern audio player built with Next.js and React, featuring server-side rendering and optimized performance.",
+        "techStack": ["Next.js", "React", "JavaScript", "Audio Player"],
+        "githubUrl": "https://github.com/adarshsingh1407/nextjs-audio-player",
+        "liveUrl": ""
+      }
+    ]
+  },
+  "contributions": {
+    "viewContribution": "View Contribution",
+    "viewPackage": "View Package",
+    "viewAnswer": "View Answer",
+    "viewPR": "View Pull Request",
+    "merged": "Merged",
+    "published": "Published",
+    "accepted": "Accepted",
+    "items": [
+      {
+        "type": "pull_request",
+        "title": "Add TypeScript support to React Router",
+        "repository": "remix-run/react-router",
+        "description": "Implemented comprehensive TypeScript definitions for React Router v6, improving developer experience and type safety.",
+        "url": "https://github.com/remix-run/react-router/pull/8234",
+        "stats": {
+          "additions": 342,
+          "deletions": 89,
+          "commits": 7
+        },
+        "status": "merged",
+        "date": "February 2024"
+      },
+      {
+        "type": "npm_package",
+        "title": "react-form-validator",
+        "description": "A lightweight, customizable form validation library for React with zero dependencies and TypeScript support.",
+        "url": "https://www.npmjs.com/package/@adarshsingh/react-form-validator",
+        "stats": {
+          "downloads": "15.2k",
+          "version": "2.1.4",
+          "stars": 127
+        },
+        "status": "published",
+        "date": "January 2024"
+      },
+      {
+        "type": "issue",
+        "title": "Memory leak in useEffect cleanup",
+        "repository": "facebook/react",
+        "description": "Identified and reported a memory leak issue in React 18's useEffect cleanup function with detailed reproduction steps.",
+        "url": "https://github.com/facebook/react/issues/24532",
+        "stats": {
+          "comments": 23,
+          "reactions": 47,
+          "labels": ["Bug", "React 18"]
+        },
+        "status": "accepted",
+        "date": "December 2023"
+      },
+      {
+        "type": "stackoverflow",
+        "title": "How to optimize React component re-renders?",
+        "description": "Comprehensive answer covering React.memo, useMemo, useCallback, and advanced optimization techniques with practical examples.",
+        "url": "https://stackoverflow.com/questions/65432187/how-to-optimize-react-component-re-renders/65432987#65432987",
+        "stats": {
+          "upvotes": 234,
+          "views": "45.2k",
+          "bookmarks": 89
+        },
+        "status": "accepted",
+        "date": "November 2023"
+      },
+      {
+        "type": "pull_request",
+        "title": "Improve accessibility in Tailwind CSS components",
+        "repository": "tailwindlabs/tailwindcss",
+        "description": "Enhanced accessibility features for form components, added ARIA labels, and improved keyboard navigation support.",
+        "url": "https://github.com/tailwindlabs/tailwindcss/pull/9876",
+        "stats": {
+          "additions": 156,
+          "deletions": 23,
+          "commits": 4
+        },
+        "status": "merged",
+        "date": "October 2023"
+      },
+      {
+        "type": "npm_package",
+        "title": "node-error-handler",
+        "description": "Production-ready error handling middleware for Express.js applications with logging, notifications, and recovery features.",
+        "url": "https://www.npmjs.com/package/@adarshsingh/node-error-handler",
+        "stats": {
+          "downloads": "8.7k",
+          "version": "1.3.2",
+          "stars": 76
+        },
+        "status": "published",
+        "date": "September 2023"
+      }
+    ]
+  }
+}

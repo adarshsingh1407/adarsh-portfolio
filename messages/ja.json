@@ -1,0 +1,248 @@
+{
+  "header": {
+    "portfolioTitle": "アダルシュ・シン",
+    "darkMode": "ダークモード",
+    "nav": {
+      "blogs": "ブログ",
+      "projects": "プロジェクト",
+      "contributions": "オープンソース"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} アダルシュ・シン。すべての権利を保有します。"
+  },
+  "pages": {
+    "home": {
+      "title": "ホーム"
+    },
+    "blogs": {
+      "title": "ブログ投稿",
+      "subtitle": "ウェブ開発とテクノロジーに関する考え、チュートリアル、洞察。"
+    },
+    "projects": {
+      "title": "プロジェクト",
+      "subtitle": "GitHubでのオープンソースプロジェクトと個人作品のコレクション。"
+    },
+    "contributions": {
+      "title": "オープンソース貢献",
+      "subtitle": "コード、ドキュメント、コミュニティ活動を通じたオープンソースコミュニティへの貢献。"
+    }
+  },
+  "landingCard": {
+    "title": "アカウントにログイン",
+    "description": "アカウントにログインするには、以下にメールアドレスを入力してください",
+    "signUp": "サインアップ",
+    "content": "テスト",
+    "footer": "フッター"
+  },
+  "blog": {
+    "posts": [
+      {
+        "title": "Next.js 15 を始める",
+        "description": "パフォーマンスの向上と新しいAPIルートを含む、Next.js 15の最新機能でモダンなウェブアプリケーションを構築する方法を学びます。",
+        "date": "2024年3月15日"
+      },
+      {
+        "title": "React Server Components をマスターする",
+        "description": "React Server Componentsと、サーバーサイドレンダリングとクライアントサイドのインタラクティビティに対する考え方を革命的に変える方法を深く掘り下げます。",
+        "date": "2024年3月10日"
+      },
+      {
+        "title": "Tailwind CSS で美しいUIを構築する",
+        "description": "どのデバイスでも素晴らしく見える、素晴らしくレスポンシブなユーザーインターフェースを作成するための高度なTailwind CSS技術を探求します。",
+        "date": "2024年3月5日"
+      },
+      {
+        "title": "React のための TypeScript ベストプラクティス",
+        "description": "Reactアプリケーションをより保守しやすく、型安全にするための重要なTypeScriptパターンと実践を発見します。",
+        "date": "2024年2月28日"
+      },
+      {
+        "title": "ウェブパフォーマンスの最適化",
+        "description": "ウェブアプリケーションを最大のパフォーマンスとより良いユーザーエクスペリエンスのために最適化する実証済みの戦略と技術を学びます。",
+        "date": "2024年2月20日"
+      },
+      {
+        "title": "React でのモダンな状態管理",
+        "description": "Reactアプリケーションのための異なる状態管理ソリューションを比較し、各アプローチを効果的に使用するタイミングを学びます。",
+        "date": "2024年2月15日"
+      }
+    ]
+  },
+  "projects": {
+    "viewOnGitHub": "GitHubで表示",
+    "liveDemo": "ライブデモ",
+    "items": [
+      {
+        "name": "Neo Elektra オーディオプレーヤー",
+        "description": "ElectronとNode.jsで構築されたクロスプラットフォームオーディオプレーヤー。異なるオペレーティングシステムでの音楽再生のためのモダンなインターフェースを提供します。",
+        "techStack": [
+          "Electron",
+          "Node.js",
+          "JavaScript",
+          "クロスプラットフォーム"
+        ],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-elektra-audio-player",
+        "liveUrl": ""
+      },
+      {
+        "name": "React Champ チュートリアル",
+        "description": "制御されたコンポーネント、Reactの基礎、モダンなReact開発のベストプラクティスを含む包括的なReactチュートリアルシリーズ。",
+        "techStack": [
+          "React",
+          "JavaScript",
+          "Create React App",
+          "チュートリアル"
+        ],
+        "githubUrl": "https://github.com/adarshsingh1407/react-champ",
+        "liveUrl": ""
+      },
+      {
+        "name": "Google News スクレーパー",
+        "description": "Google News APIからニュース記事を抽出し、クリーンなデータ構造で処理するTypeScriptベースのGoogle Newsスクレーパー。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "ウェブスクレーピング",
+          "News API"
+        ],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-google-news-scraper",
+        "liveUrl": ""
+      },
+      {
+        "name": "Hooks を使ったクイズアプリ",
+        "description": "React Hooks、Redux、Redux-Sagaを使用して状態管理と副作用の処理を行うインタラクティブなクイズウェブアプリケーション。",
+        "techStack": ["React", "Redux", "Redux-Saga", "React Hooks"],
+        "githubUrl": "https://github.com/adarshsingh1407/quiz-hooks",
+        "liveUrl": ""
+      },
+      {
+        "name": "Apollo Federation クロスプラットフォーム",
+        "description": "マイクロサービスアーキテクチャ用のSpringBootとNode.jsサーバーを使用したApollo Federationの実装を実演するGraphQLスターターパック。",
+        "techStack": ["GraphQL", "Apollo Federation", "Java", "Node.js"],
+        "githubUrl": "https://github.com/adarshsingh1407/federation-cross-platform",
+        "liveUrl": ""
+      },
+      {
+        "name": "React テスト駆動開発",
+        "description": "JestとEnzymeを使用した包括的なテストカバレッジを持つテスト駆動開発（TDD）手法を使用して構築されたReactアプリケーション。",
+        "techStack": ["React", "Jest", "Enzyme", "TDD", "テスト"],
+        "githubUrl": "https://github.com/adarshsingh1407/react-test-driven",
+        "liveUrl": ""
+      },
+      {
+        "name": "Neo CRA (SSR + PWA)",
+        "description": "モダンなビルドツールと最適化技術を使用したReactでのサーバーレンダリングプログレッシブウェブアプリのボイラープレートコード。",
+        "techStack": ["React", "Redux", "Express", "PWA", "SSR"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-cra",
+        "liveUrl": ""
+      },
+      {
+        "name": "Neo 孤独な騎士",
+        "description": "ReactとReduxを使用して構築されたドラッグアンドドロップ機能を持つ孤独な騎士をフィーチャーしたインタラクティブなチェスゲーム。",
+        "techStack": ["React", "Redux", "React DnD", "チェスゲーム"],
+        "githubUrl": "https://github.com/adarshsingh1407/neo-lonely-knight",
+        "liveUrl": ""
+      },
+      {
+        "name": "Next.js オーディオプレーヤー",
+        "description": "サーバーサイドレンダリングと最適化されたパフォーマンスを特徴とするNext.jsとReactで構築されたモダンなオーディオプレーヤー。",
+        "techStack": ["Next.js", "React", "JavaScript", "オーディオプレーヤー"],
+        "githubUrl": "https://github.com/adarshsingh1407/nextjs-audio-player",
+        "liveUrl": ""
+      }
+    ]
+  },
+  "contributions": {
+    "viewContribution": "貢献を表示",
+    "viewPackage": "パッケージを表示",
+    "viewAnswer": "回答を表示",
+    "viewPR": "プルリクエストを表示",
+    "merged": "マージ済み",
+    "published": "公開済み",
+    "accepted": "承認済み",
+    "items": [
+      {
+        "type": "pull_request",
+        "title": "React RouterにTypeScriptサポートを追加",
+        "repository": "remix-run/react-router",
+        "description": "React Router v6の包括的なTypeScript定義を実装し、開発者体験と型安全性を向上させました。",
+        "url": "https://github.com/remix-run/react-router/pull/8234",
+        "stats": {
+          "additions": 342,
+          "deletions": 89,
+          "commits": 7
+        },
+        "status": "merged",
+        "date": "2024年2月"
+      },
+      {
+        "type": "npm_package",
+        "title": "react-form-validator",
+        "description": "依存関係ゼロでTypeScriptサポート付きの軽量でカスタマイズ可能なReactフォーム検証ライブラリ。",
+        "url": "https://www.npmjs.com/package/@adarshsingh/react-form-validator",
+        "stats": {
+          "downloads": "15.2k",
+          "version": "2.1.4",
+          "stars": 127
+        },
+        "status": "published",
+        "date": "2024年1月"
+      },
+      {
+        "type": "issue",
+        "title": "useEffectクリーンアップでのメモリリーク",
+        "repository": "facebook/react",
+        "description": "React 18のuseEffectクリーンアップ関数でのメモリリーク問題を詳細な再現手順と共に特定・報告しました。",
+        "url": "https://github.com/facebook/react/issues/24532",
+        "stats": {
+          "comments": 23,
+          "reactions": 47,
+          "labels": ["Bug", "React 18"]
+        },
+        "status": "accepted",
+        "date": "2023年12月"
+      },
+      {
+        "type": "stackoverflow",
+        "title": "Reactコンポーネントの再レンダリングを最適化する方法？",
+        "description": "React.memo、useMemo、useCallback、高度な最適化技術を実践例と共に包括的に解説した回答。",
+        "url": "https://stackoverflow.com/questions/65432187/how-to-optimize-react-component-re-renders/65432987#65432987",
+        "stats": {
+          "upvotes": 234,
+          "views": "45.2k",
+          "bookmarks": 89
+        },
+        "status": "accepted",
+        "date": "2023年11月"
+      },
+      {
+        "type": "pull_request",
+        "title": "Tailwind CSSコンポーネントのアクセシビリティ向上",
+        "repository": "tailwindlabs/tailwindcss",
+        "description": "フォームコンポーネントのアクセシビリティ機能を強化し、ARIAラベルを追加し、キーボードナビゲーションサポートを改善しました。",
+        "url": "https://github.com/tailwindlabs/tailwindcss/pull/9876",
+        "stats": {
+          "additions": 156,
+          "deletions": 23,
+          "commits": 4
+        },
+        "status": "merged",
+        "date": "2023年10月"
+      },
+      {
+        "type": "npm_package",
+        "title": "node-error-handler",
+        "description": "ログ記録、通知、回復機能を備えたExpress.jsアプリケーション用のプロダクション対応エラーハンドリングミドルウェア。",
+        "url": "https://www.npmjs.com/package/@adarshsingh/node-error-handler",
+        "stats": {
+          "downloads": "8.7k",
+          "version": "1.3.2",
+          "stars": 76
+        },
+        "status": "published",
+        "date": "2023年9月"
+      }
+    ]
+  }
+}
