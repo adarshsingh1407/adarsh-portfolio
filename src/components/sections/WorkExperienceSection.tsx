@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Building2, Calendar, MapPin } from "lucide-react";
+import { Building2, Calendar, MapPin, ExternalLink } from "lucide-react";
 import { RESUME_DATA, TECH_STACK_COLORS } from "@/lib/constants";
 import { formatDuration } from "@/lib/utils";
 
@@ -40,8 +40,18 @@ export function WorkExperienceSection() {
                           pidx > 0 ? "border-t border-neutral-light pt-4" : ""
                         }
                       >
-                        <div className="font-semibold text-primary mb-1">
+                        <div className="font-semibold text-primary mb-1 flex items-center gap-2">
                           {proj.name}
+                          {proj.url && (
+                            <a
+                              href={proj.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-muted-foreground hover:text-primary transition-colors"
+                            >
+                              <ExternalLink className="w-4 h-4" />
+                            </a>
+                          )}
                         </div>
                         <div className="text-sm font-medium mb-1">
                           Role: {proj.role}

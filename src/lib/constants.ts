@@ -81,6 +81,7 @@ type ProjectDetail = {
   summary: string;
   responsibilities?: string[];
   techStack: string[];
+  url?: string;
 };
 
 type EducationEntry = {
@@ -157,6 +158,7 @@ export const RESUME_DATA = {
             "Mabl",
             "MixPanel",
           ],
+          url: "https://www.trustcloud.ai",
         },
         {
           name: "PlayFi DTS (TV WebApp)",
@@ -164,6 +166,7 @@ export const RESUME_DATA = {
           summary:
             "Sole developer responsible for architecture, development, and delivery of a React-based TV WebApp on WebOS. Integrated with native C++ modules via Luna Bus IPC. Built Dpad-compatible design system using Enact and authored onboarding documentation.",
           techStack: ["ReactJS", "ReactQuery", "WebOS", "Enact"],
+          url: "https://play-fi.com",
         },
         {
           name: "Headlamp",
@@ -171,12 +174,14 @@ export const RESUME_DATA = {
           summary:
             "Developed clinician-patient platform with NextJS. Integrated patient data APIs with ReactQuery, created reusable hooks, implemented workflow mechanisms, and ensured code quality through reviews and linting practices.",
           techStack: ["ReactJS", "TypeScript", "ReactQuery"],
+          url: "https://www.headlamp.com",
         },
         {
           name: "Transcarent",
           role: "Senior React/GraphQL Engineer",
           summary:
             "Built and integrated GraphQL queries/mutations for user data. Used Apollo Client in NextJS, fixed production bugs, and maintained code quality with automated checks and reviews.",
+          url: "https://transcarent.com",
         },
       ] as ProjectDetail[],
     },
@@ -193,6 +198,7 @@ export const RESUME_DATA = {
           role: "Lead Product Engineer & Senior React Engineer",
           summary:
             "Led 10-member frontend and backend teams for an MSME factory management platform. Architected the ReactJS/NextJS frontend and NodeJS backend. Managed JIRA workflows, conducted training, and enforced quality standards. Individually delivered core features like Analytics and Reports. Enhanced report performance with AWS Lambda, and improved site performance using React Profiler and Lighthouse. Built reusable component libraries and custom hooks.",
+          url: "https://factoryplus.in",
         },
       ] as ProjectDetail[],
     },
@@ -205,16 +211,18 @@ export const RESUME_DATA = {
         "Worked on GraphQL and React in both internal and client projects in the E-Commerce Vertical. Improved performance of a legacy web app in React (60% lighter bundle and 30% reduction in build time).",
       projects: [
         {
-          name: "The Children&apos;s Place",
+          name: "The Children's Place",
           role: "Senior React Engineer",
           summary:
             "Developed the complete Cart and Checkout frontend using ReactJS and GraphQL. Implemented single-page UX transitions and animations. Led a successful POC for GraphQL federation (NodeJS + SpringBoot) to enable cross-platform backend development.",
+          url: "https://www.childrensplace.com",
         },
         {
           name: "Bed Bath and Beyond",
           role: "Senior React Engineer",
           summary:
             "Built discounting features across product pages, cart, and checkout. Supported live product launches during night shifts and resolved post-deployment issues in the Cart and Checkout modules.",
+          url: "https://www.bedbathandbeyond.com",
         },
         {
           name: "Commerce on Cloud",
@@ -238,6 +246,7 @@ export const RESUME_DATA = {
           summary:
             "Led a 10+ member full-stack team to deliver inventory, personnel, and process management features for petroleum pipeline clients in Europe and the Gulf. Transitioned a legacy app from Vanilla JS/jQuery to a hybrid ReactJS architecture. Conducted React/Redux training and built microservices in SpringBoot and Dropwizard.",
           techStack: ["ReactJS", "Redux", "jQuery", "SpringBoot", "Java"],
+          url: "https://petroit.us/solutions/stack-61/",
         },
       ] as ProjectDetail[],
     },
@@ -255,6 +264,7 @@ export const RESUME_DATA = {
           summary:
             "Led a 10+ member full-stack team to deliver inventory, personnel, and process management features for petroleum pipeline clients in Europe and the Gulf. Transitioned a legacy app from Vanilla JS/jQuery to a hybrid ReactJS architecture. Conducted React/Redux training and built microservices in SpringBoot and Dropwizard.",
           techStack: ["ReactJS", "Redux", "jQuery", "SpringBoot", "Java"],
+          url: "https://petroit.us/solutions/stack-61/",
         },
       ] as ProjectDetail[],
     },
@@ -293,6 +303,7 @@ export const RESUME_DATA = {
           role: "Team Lead",
           summary:
             "Led a 10+ member full-stack team to deliver inventory, personnel, and process management features for petroleum pipeline clients in Europe and the Gulf. Transitioned a legacy app from Vanilla JS/jQuery to a hybrid ReactJS architecture. Conducted React/Redux training and built microservices in SpringBoot and Dropwizard.",
+          url: "https://petroit.us/solutions/stack-61/",
         },
         {
           name: "Dauble",

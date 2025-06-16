@@ -5,7 +5,8 @@
     "nav": {
       "blogs": "Blogs",
       "projects": "Projects",
-      "contributions": "Open Source"
+      "contributions": "Open Source",
+      "contact": "Contact"
     }
   },
   "footer": {

@@ -15,7 +15,7 @@ export function Header() {
     <>
       <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-900/80 h-16">
         <div className="container mx-auto flex items-center justify-between px-4 h-full">
-          <div className="flex items-center bg-[#0e2a4c] rounded-full">
+          <div className="flex items-center bg-[#0e2a4c] rounded-lg">
             <Link href="/" className="hover:opacity-80">
               <Image
                 src={SITE_CONFIG.logo}
@@ -66,6 +66,12 @@ export function Header() {
               className="text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 transition-colors"
             >
               {t("nav.contributions")}
+            </Link>
+            <Link
+              href="/contact"
+              className="text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 transition-colors"
+            >
+              {t("nav.contact")}
             </Link>
           </nav>
         </div>
