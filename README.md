@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Adarsh Singh Portfolio
 
-## Getting Started
+[![Website](https://img.shields.io/badge/adarshsingh14.com-Live-blue)](https://adarshsingh14.com)
+[![Vercel](https://vercelbadge.vercel.app/api/adarshsingh1407/adarsh-portfolio)](https://adarshsingh14.com)
 
-First, run the development server:
+A modern, multilingual portfolio and blog for Adarsh Singh, built with Next.js, React, and Tailwind CSS. Showcases projects, blogs, open source contributions, and more.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🌐 Live Site
+
+**[adarshsingh14.com](https://adarshsingh14.com)** (Hosted on [Vercel](https://vercel.com/))
+
+---
+
+## 🛠️ Tech Stack & Key Libraries
+
+- **Next.js**: React framework for server-side rendering, static site generation, and routing.
+- **React 19**: UI library for building interactive user interfaces.
+- **TypeScript**: Type safety and better developer experience.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **next-intl**: Internationalization (i18n) support for multiple languages.
+- **Radix UI**: Accessible, unstyled UI primitives for building custom components.
+- **Lucide React**: Icon library for modern, consistent icons.
+- **date-fns**: Modern JavaScript date utility library.
+- **motion**: Animation library for React.
+- **clsx, class-variance-authority, tailwind-merge**: Utility libraries for conditional class names and Tailwind class merging.
+
+**Why these?**
+
+- **Next.js** for SEO, performance, and hybrid rendering.
+- **Tailwind CSS** for fast, maintainable styling.
+- **next-intl** for seamless multi-language support.
+- **Radix UI** for accessible, composable UI building blocks.
+- **TypeScript** for robust, scalable code.
+
+---
+
+## 📁 Project Structure
+
+```
+adarsh-portfolio/
+├── public/                # Static assets (images, favicon, etc.)
+├── src/
+│   ├── app/               # Next.js app directory (routing, pages)
+│   │   ├── [locale]/      # Locale-specific routes
+│   │   ├── api/           # API routes (e.g., GitHub repos)
+│   │   ├── blogs/         # Blog pages
+│   │   ├── contact/       # Contact page
+│   │   ├── contributions/ # Open source contributions
+│   │   └── projects/      # Projects showcase
+│   ├── components/        # Reusable React components
+│   │   ├── animations/    # Animation components
+│   │   ├── contributions/ # Contribution-related components
+│   │   ├── sections/      # Page sections (profile, work, etc.)
+│   │   └── ui/            # UI primitives (buttons, cards, etc.)
+│   ├── contexts/          # React context providers
+│   ├── i18n/              # Internationalization config
+│   ├── lib/               # Utilities, constants, and data
+│   │   └── data/          # JSON data (personal, education, etc.)
+│   └── styles/            # Global and component styles
+├── .github/               # GitHub Actions workflows (CI/CD)
+├── package.json           # Project metadata and scripts
+├── tailwind.config.js     # Tailwind CSS config
+├── next.config.ts         # Next.js config
+├── tsconfig.json          # TypeScript config
+└── README.md              # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+Visit [http://localhost:3000](http://localhost:3000) to view the site locally.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Multilingual (English, Spanish, Japanese)
+- Responsive, accessible design
+- Projects, blogs, and open source contributions
+- Dark mode toggle
+- Animated UI elements
+- SEO optimized (Open Graph, Twitter cards, etc.)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` – Start local development
+- `npm run build` – Build for production
+- `npm run start` – Start production server
+- `npm run lint` – Lint code with ESLint
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+[MIT](LICENSE)
+
+---
+
+## 👤 Author
+
+- **Adarsh Singh**  
+  [Website](https://adarshsingh14.com) • [GitHub](https://github.com/adarshsingh1407) • [LinkedIn](https://www.linkedin.com/in/adarshsingh1407)
