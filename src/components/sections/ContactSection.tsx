@@ -20,7 +20,7 @@ export function ContactSection() {
             <div id="contact-buttons" className="flex flex-wrap gap-2">
               <Button asChild variant="outline" className="w-fit">
                 <a
-                  href={`mailto:${RESUME_DATA.contact.email.value}`}
+                  href={`mailto:${RESUME_DATA.personal.contact.email.value}`}
                   title="Email"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -29,17 +29,17 @@ export function ContactSection() {
                   <div className="relative w-8 h-8">
                     <Image src="/gmail.png" alt="Email" fill />
                   </div>
-                  <span>{RESUME_DATA.contact.email.label}</span>
+                  <span>{RESUME_DATA.personal.contact.email.label}</span>
                 </a>
               </Button>
               <Button asChild variant="outline" className="w-fit">
                 <a
-                  href={`tel:${RESUME_DATA.contact.phone.value}`}
+                  href={`tel:${RESUME_DATA.personal.contact.phone.value}`}
                   title="Phone"
                   className="flex items-center gap-2"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>{RESUME_DATA.contact.phone.label}</span>
+                  <span>{RESUME_DATA.personal.contact.phone.label}</span>
                 </a>
               </Button>
             </div>
@@ -49,7 +49,7 @@ export function ContactSection() {
             <div id="social-buttons" className="flex flex-wrap gap-2">
               <Button asChild variant="outline" className="w-fit">
                 <a
-                  href={RESUME_DATA.contact.linkedin.value}
+                  href={RESUME_DATA.personal.social.linkedin.value}
                   title="LinkedIn"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -62,7 +62,7 @@ export function ContactSection() {
               </Button>
               <Button asChild variant="outline" className="w-fit">
                 <a
-                  href={RESUME_DATA.contact.github.value}
+                  href={RESUME_DATA.personal.social.github.value}
                   title="GitHub"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -79,7 +79,7 @@ export function ContactSection() {
               </Button>
               <Button asChild variant="outline" className="w-fit">
                 <a
-                  href={RESUME_DATA.contact.stackoverflow.value}
+                  href={RESUME_DATA.personal.social.stackoverflow.value}
                   title="Stack Overflow"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -100,7 +100,7 @@ export function ContactSection() {
               </Button>
               <Button asChild variant="outline" className="w-fit">
                 <a
-                  href={RESUME_DATA.contact.medium.value}
+                  href={RESUME_DATA.personal.social.medium.value}
                   title="Medium"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -119,7 +119,7 @@ export function ContactSection() {
               </Button>
               <Button asChild variant="outline" className="w-fit">
                 <a
-                  href={RESUME_DATA.contact.npm.value}
+                  href={RESUME_DATA.personal.social.npm.value}
                   title="NPM"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -132,7 +132,7 @@ export function ContactSection() {
               </Button>
               <Button asChild variant="outline" className="w-fit">
                 <a
-                  href={RESUME_DATA.contact.leetcode.value}
+                  href={RESUME_DATA.personal.social.leetcode.value}
                   title="LeetCode"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -154,7 +154,7 @@ export function ContactSection() {
             <div className="flex items-center gap-1">
               <MapPin className="w-4 h-4" />
               <span className="text-sm text-muted-foreground">
-                {RESUME_DATA.location}
+                {RESUME_DATA.personal.location}
               </span>
             </div>
           </FadeIn>

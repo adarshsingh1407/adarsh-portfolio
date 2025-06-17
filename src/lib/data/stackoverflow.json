@@ -1,0 +1,42 @@
+{
+  "platform": "Stack Overflow",
+  "profileUrl": "https://stackoverflow.com/users/6921247/adarsh-singh",
+  "metrics": [
+    {
+      "title": "Reputation",
+      "value": 146
+    },
+    {
+      "title": "Reach",
+      "value": "6k+"
+    },
+    {
+      "title": "Answers",
+      "value": 5
+    },
+    {
+      "title": "Badges",
+      "value": 5
+    }
+  ],
+  "tags": [
+    "reactjs",
+    "jsx",
+    "javascript",
+    "arrays",
+    "error-handling",
+    "header"
+  ],
+  "topPosts": [
+    {
+      "title": "How to dynamically change the react element in jsx",
+      "score": 2,
+      "date": "Jul, 2022"
+    },
+    {
+      "title": "How do you catch if an incoming object (from a http request) doesn't have a certain array? (React JS)",
+      "score": 1,
+      "date": "Jul, 2022"
+    }
+  ]
+}

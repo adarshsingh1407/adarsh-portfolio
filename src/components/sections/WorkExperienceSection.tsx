@@ -57,13 +57,6 @@ export function WorkExperienceSection() {
                           Role: {proj.role}
                         </div>
                         <div className="mb-2 text-sm">{proj.summary}</div>
-                        {Array.isArray(proj.responsibilities) && (
-                          <ul className="list-disc list-inside mb-2 text-sm text-muted-foreground">
-                            {proj.responsibilities.map((resp, ridx) => (
-                              <li key={ridx}>{resp}</li>
-                            ))}
-                          </ul>
-                        )}
 
                         <div className="flex flex-wrap gap-1">
                           {proj.techStack?.map((tech, i) => (

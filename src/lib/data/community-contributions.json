@@ -1,0 +1,154 @@
+[
+  {
+    "title": "Neo-CRA",
+    "type": "Github Repository",
+    "description": "A boilerplate for server-rendered PWAs using Create React App. Designed to help the frontend community adopt progressive web standards easily. Included in the GitHub Arctic Code Vault.",
+    "role": "Author & Publisher",
+    "techStack": ["ReactJS", "ExpressJS", "Create React App (v1)"],
+    "metrics": [
+      {
+        "label": "Commits",
+        "value": 9
+      },
+      {
+        "label": "Issues",
+        "value": 1
+      },
+      {
+        "label": "Stars",
+        "value": 11
+      },
+      {
+        "label": "Forks",
+        "value": 3
+      }
+    ],
+    "links": {
+      "github": "https://github.com/adarshsingh1407?tab=achievements&achievement=arctic-code-vault-contributor"
+    },
+    "published": "Dec, 2017"
+  },
+  {
+    "title": "Apollo Federation: Federated Cross-Platform Microservices",
+    "type": "Github Repository",
+    "description": "Demo project showing schema stitching across microservices written in Node.js and Spring Boot using Apollo Federation.",
+    "role": "Author & Publisher",
+    "techStack": [
+      "GraphQL",
+      "Apollo Federation",
+      "ExpressJS",
+      "SpringBoot",
+      "Java"
+    ],
+    "metrics": [
+      {
+        "label": "Commits",
+        "value": 10
+      },
+      {
+        "label": "Issues",
+        "value": 0
+      },
+      {
+        "label": "Stars",
+        "value": 0
+      },
+      {
+        "label": "Forks",
+        "value": 0
+      }
+    ],
+    "links": {
+      "github": "https://github.com/adarshsingh1407/federation-cross-platform"
+    },
+    "published": "Feb, 2021"
+  },
+  {
+    "title": "neo-grunt-usemin",
+    "type": "NPM Package",
+    "description": "Patch for the original grunt-usemin plugin fixing a Safari-specific CSS type issue. Publishes optimized assets using Grunt tasks.",
+    "role": "Maintainer",
+    "techStack": ["AngularJS", "GruntJS", "JavaScript"],
+    "metrics": [
+      {
+        "label": "Total Downloads",
+        "value": 908
+      },
+      {
+        "label": "Weekly Downloads",
+        "value": 1
+      }
+    ],
+    "links": {
+      "github": "https://github.com/adarshsingh1407/neo-grunt-usemin",
+      "npm": "https://www.npmjs.com/package/neo-grunt-usemin"
+    },
+    "published": "Feb, 2018"
+  },
+  {
+    "title": "neo-react-audio-player",
+    "type": "NPM Package",
+    "description": "Lightweight and customizable audio player component for React.",
+    "role": "Author & Publisher",
+    "techStack": ["ReactJS", "JavaScript"],
+    "metrics": [
+      {
+        "label": "Total Downloads",
+        "value": 932
+      },
+      {
+        "label": "Weekly Downloads",
+        "value": 3
+      }
+    ],
+    "links": {
+      "github": "https://github.com/adarshsingh1407/neo-react-audio-player",
+      "npm": "https://www.npmjs.com/package/neo-react-audio-player"
+    },
+    "published": "Apr, 2018"
+  },
+  {
+    "title": "neo-scraper-google-news",
+    "type": "NPM Package",
+    "description": "A TypeScript-based Google News scraper returning structured JSON articles from a search query.",
+    "role": "Author & Maintainer",
+    "techStack": ["TypeScript", "Web Scraping"],
+    "metrics": [
+      {
+        "label": "Total Downloads",
+        "value": 3453
+      },
+      {
+        "label": "Weekly Downloads",
+        "value": 23
+      }
+    ],
+    "links": {
+      "github": "https://github.com/adarshsingh1407/neo-google-news-scraper",
+      "npm": "https://www.npmjs.com/package/neo-scraper-google-news"
+    },
+    "published": "Jun, 2022"
+  },
+  {
+    "title": "neo-adminjs-upload",
+    "type": "NPM Package",
+    "description": "Fork of the AdminJS upload plugin that adds support for sending MIME types to S3 via system headers.",
+    "role": "Fork Author & Maintainer",
+    "techStack": ["TypeScript", "AdminJS", "AWS S3"],
+    "metrics": [
+      {
+        "label": "Total Downloads",
+        "value": 259
+      },
+      {
+        "label": "Weekly Downloads",
+        "value": 3
+      }
+    ],
+    "links": {
+      "github": "https://github.com/adarshsingh1407/adminjs-upload",
+      "npm": "https://www.npmjs.com/package/neo-adminjs-upload"
+    },
+    "published": "Jun, 2022"
+  }
+]

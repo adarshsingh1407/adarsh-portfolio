@@ -27,9 +27,7 @@ export function EducationSection() {
                 <div className="flex flex-col md:flex-row md:items-center md:gap-4">
                   {/* Left: Degree/Level and Years */}
                   <div className="flex-1">
-                    <CardTitle className="text-lg">
-                      {edu.degree || edu.level}
-                    </CardTitle>
+                    <CardTitle className="text-lg">{edu.degree}</CardTitle>
                     <CardDescription className="mb-2">
                       {edu.years && (
                         <span className="text-xs text-muted-foreground">
@@ -61,7 +59,7 @@ export function EducationSection() {
                     </span>
                   )}
                   {edu.subjects && (
-                    <span className="text-xs text-muted-foreground mt-1 block w-full md:w-auto">
+                    <span className="text-xs text-muted-foreground mt-2 block w-full md:w-auto">
                       Subjects: {edu.subjects.join(", ")}
                     </span>
                   )}
