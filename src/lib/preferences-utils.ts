@@ -7,7 +7,14 @@ const isBrowser = typeof window !== "undefined";
 export function getPreference(key: string): string | null {
   if (!isBrowser) return null;
 
-  // Try localStorage first
+  // For locale, only use cookies
+  if (key === "locale") {
+    const cookies = document.cookie.split(";");
+    const cookie = cookies.find((c) => c.trim().startsWith(`${key}=`));
+    return cookie ? cookie.split("=")[1] : null;
+  }
+
+  // For other preferences, try localStorage first
   const localValue = localStorage.getItem(key);
   if (localValue) return localValue;
 
@@ -28,10 +35,16 @@ export function getPreference(key: string): string | null {
 export function setPreference(key: string, value: string): void {
   if (!isBrowser) return;
 
-  // Set in localStorage
-  localStorage.setItem(key, value);
+  // For locale, only use cookies
+  if (key === "locale") {
+    const expires = new Date();
+    expires.setFullYear(expires.getFullYear() + 1);
+    document.cookie = `${key}=${value}; expires=${expires.toUTCString()}; path=/; SameSite=Lax`;
+    return;
+  }
 
-  // Set in cookies
+  // For other preferences, set in both localStorage and cookies
+  localStorage.setItem(key, value);
   const expires = new Date();
   expires.setFullYear(expires.getFullYear() + 1);
   document.cookie = `${key}=${value}; expires=${expires.toUTCString()}; path=/; SameSite=Lax`;

@@ -50,6 +50,12 @@ export function Header() {
         <div className="container mx-auto px-4 py-3">
           <nav className="flex items-center justify-center space-x-8">
             <Link
+              href="/"
+              className="text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 transition-colors"
+            >
+              {t("nav.home")}
+            </Link>
+            <Link
               href="/blogs"
               className="text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 transition-colors"
             >

@@ -3,6 +3,7 @@
     "portfolioTitle": "Adarsh Singh",
     "darkMode": "Dark Mode",
     "nav": {
+      "home": "Home",
       "blogs": "Blogs",
       "projects": "Projects",
       "contributions": "Open Source",

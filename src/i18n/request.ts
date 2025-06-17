@@ -1,7 +1,8 @@
 import { getRequestConfig } from "next-intl/server";
+import { cookies } from "next/headers";
 
 export default getRequestConfig(async () => {
-  // Use client-side cookie detection
+  // Use server-side cookie detection
   const locale = await getLocale();
 
   return {
@@ -10,15 +11,13 @@ export default getRequestConfig(async () => {
   };
 });
 
-// Use client-side cookie detection
+// Use server-side cookie detection
 export async function getLocale() {
-  if (typeof window === "undefined") {
-    return "en"; // Default for static build
-  }
+  // Server-side cookie reading
+  const cookieStore = await cookies();
+  const localeCookie = cookieStore.get("locale");
+  const locale = localeCookie?.value;
 
-  const cookies = document.cookie.split(";");
-  const localeCookie = cookies.find((cookie) =>
-    cookie.trim().startsWith("locale=")
-  );
-  return localeCookie?.split("=")[1] || "en";
+  // Validate that the locale is one of our supported languages
+  return locale && ["en", "es", "ja"].includes(locale) ? locale : "en";
 }

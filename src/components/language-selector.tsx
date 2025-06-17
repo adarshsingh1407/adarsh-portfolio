@@ -10,15 +10,15 @@ import {
 import { useLocale } from "next-intl";
 import { LANGUAGES, Language } from "@/lib/language-utils";
 import { setLanguage } from "@/lib/preferences-utils";
-import { useRouter } from "next/navigation";
 
 export function LanguageSelector() {
   const currentLocale = useLocale() as Language;
-  const router = useRouter();
 
   const handleLanguageChange = (newLanguage: Language) => {
+    // Set the language in cookies only
     setLanguage(newLanguage);
-    router.refresh();
+    // Simple page refresh to apply the new locale
+    window.location.reload();
   };
 
   const currentLanguage = LANGUAGES.find((lang) => lang.code === currentLocale);

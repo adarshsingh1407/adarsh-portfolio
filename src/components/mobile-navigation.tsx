@@ -40,6 +40,13 @@ export function MobileNavigation() {
             <div className="container mx-auto px-4 py-4 space-y-4">
               <div className="space-y-2 border-b dark:border-gray-800 pb-4">
                 <Link
+                  href="/"
+                  className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
+                  onClick={closeMenu}
+                >
+                  {t("nav.home")}
+                </Link>
+                <Link
                   href="/blogs"
                   className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
                   onClick={closeMenu}

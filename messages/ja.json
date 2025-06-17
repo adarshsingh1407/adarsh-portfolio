@@ -3,9 +3,11 @@
     "portfolioTitle": "アダルシュ・シン",
     "darkMode": "ダークモード",
     "nav": {
+      "home": "ホーム",
       "blogs": "ブログ",
       "projects": "プロジェクト",
-      "contributions": "オープンソース"
+      "contributions": "オープンソース",
+      "contact": "お問い合わせ"
     }
   },
   "footer": {

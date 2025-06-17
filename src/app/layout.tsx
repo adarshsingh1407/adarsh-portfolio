@@ -9,6 +9,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { DarkModeProvider } from "@/contexts/dark-mode-context";
 import { SITE_CONFIG } from "@/lib/constants";
+import { PageTransition } from "@/components/page-transition";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -118,7 +119,9 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <DarkModeProvider>
             <Header />
-            <main className="flex-1">{children}</main>
+            <main className="flex-1">
+              <PageTransition>{children}</PageTransition>
+            </main>
             <Footer />
             <ScrollToTop />
           </DarkModeProvider>
