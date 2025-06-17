@@ -1,0 +1,23 @@
+[
+  {
+    "name": "GraphQL Federation Starter (cross-platform)",
+    "year": 2021,
+    "link": "https://github.com/adarshsingh1407/federation-cross-platform",
+    "description": "Starter pack for cross-platform Apollo Federation GraphQL setup using SpringBoot and Node servers"
+  },
+  {
+    "name": "Audio Player (React)",
+    "year": 2017,
+    "link": "https://github.com/adarshsingh1407/nextjs-audio-player",
+    "description": "Audio Player Component for React Applications",
+    "stars": 3
+  },
+  {
+    "name": "PWA Boilerplate (React)",
+    "year": 2017,
+    "link": "https://github.com/adarshsingh1407/neo-cra",
+    "description": "Server-rendered, progressive web application starter",
+    "stars": 11,
+    "forks": 4
+  }
+]

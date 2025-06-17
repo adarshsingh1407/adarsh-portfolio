@@ -1,0 +1,79 @@
+[
+  {
+    "guid": "https://medium.com/p/fa25796fa07d",
+    "url": "https://medium.com/@adarshsingh1407/js-revision-notes-part-1-object-creation-series-fa25796fa07d?source=rss-4e3a448efede------2",
+    "title": "JS Revision Notes (Part 1: Object Creation Series)",
+    "image": "https://cdn-images-1.medium.com/max/1024/1*MpAKtyuzOEsmtShcakZ4nw.png",
+    "excerpt": "Master this, prototypes, and new in JS—build a strong foundation for object creation!",
+    "date_published": "2022-11-09T11:30:29.000Z",
+    "author": {
+      "name": "Adarsh Singh"
+    }
+  },
+  {
+    "guid": "https://medium.com/p/aff33fb02473",
+    "url": "https://medium.com/@adarshsingh1407/js-design-patterns-creational-factory-pattern-aff33fb02473?source=rss-4e3a448efede------2",
+    "title": "JS-Design Patterns-Creational: Factory Pattern",
+    "image": "https://cdn-images-1.medium.com/max/1024/1*L4loL63w61KSHHTA-9vUbQ.png",
+    "excerpt": "Create similar JS objects easily—no new needed. Factory Pattern to the rescue!",
+    "date_published": "2019-05-26T17:33:07.000Z",
+    "author": {
+      "name": "Adarsh Singh"
+    }
+  },
+  {
+    "guid": "https://medium.com/p/81136d15226f",
+    "url": "https://medium.com/@adarshsingh1407/js-design-patterns-constructor-pattern-81136d15226f?source=rss-4e3a448efede------2",
+    "title": "JS-Design Patterns: Constructor Pattern",
+    "image": "https://cdn-images-1.medium.com/max/1024/1*CgfIYSPqPXDTBYwG1nM8bw.png",
+    "excerpt": "Use constructors + new to craft structured JS objects with shared behavior!",
+    "date_published": "2019-05-25T18:18:25.000Z",
+    "author": {
+      "name": "Adarsh Singh"
+    }
+  },
+  {
+    "guid": "https://medium.com/p/870f42cf398",
+    "url": "https://medium.com/@adarshsingh1407/react-champ-part-ii-when-to-use-controlled-uncontrolled-components-870f42cf398?source=rss-4e3a448efede------2",
+    "title": "React-Champ: Part II: When to use controlled/uncontrolled components",
+    "image": "https://cdn-images-1.medium.com/max/864/1*89U8YXO7G7Jgwr1Wrtb6SA.png",
+    "excerpt": "Go stateless! Use uncontrolled components for simpler forms and faster inputs.",
+    "date_published": "2018-10-14T05:37:00.000Z",
+    "author": {
+      "name": "Adarsh Singh"
+    }
+  },
+  {
+    "guid": "https://medium.com/p/9af452277d79",
+    "url": "https://medium.com/@adarshsingh1407/react-champ-part-i-controlled-vs-uncontrolled-components-9af452277d79?source=rss-4e3a448efede------2",
+    "title": "React-Champ: Part I: Controlled vs Uncontrolled Components",
+    "image": "https://cdn-images-1.medium.com/max/864/1*89U8YXO7G7Jgwr1Wrtb6SA.png",
+    "excerpt": "Control your inputs, control the bugs—React forms made clean and predictable!",
+    "date_published": "2018-10-12T13:08:24.000Z",
+    "author": {
+      "name": "Adarsh Singh"
+    }
+  },
+  {
+    "guid": "https://medium.com/p/f486d44d8352",
+    "url": "https://medium.com/@adarshsingh1407/creating-server-rendered-ssr-progressive-web-apps-pwa-using-react-16-react-router-4-and-express-f486d44d8352?source=rss-4e3a448efede------2",
+    "title": "Creating server-rendered(SSR), progressive web apps(PWA) using React 16, React-Router 4 and Express…",
+    "image": "https://cdn-images-1.medium.com/max/298/1*CqcEOVj22BFnh1mYELJ0wA.png",
+    "excerpt": "Async SSR + Redux + i18n = next-gen React boilerplate with all the bells and whistles!",
+    "date_published": "2017-11-17T14:10:43.000Z",
+    "author": {
+      "name": "Adarsh Singh"
+    }
+  },
+  {
+    "guid": "https://medium.com/p/f2eaaa70689f",
+    "url": "https://medium.com/@adarshsingh1407/creating-server-rendered-ssr-progressive-web-apps-pwa-using-react-16-react-router-4-and-express-f2eaaa70689f?source=rss-4e3a448efede------2",
+    "title": "Creating server-rendered(SSR), progressive web apps(PWA) using React 16, React-Router 4 and Express…",
+    "image": "https://cdn-images-1.medium.com/max/283/1*_fIzVB2-dJMoXL1kf-39pw.png",
+    "excerpt": "Start fast! Simple SSR + PWA boilerplate for React—great for SEO and quick setup.",
+    "date_published": "2017-11-01T10:10:09.000Z",
+    "author": {
+      "name": "Adarsh Singh"
+    }
+  }
+]

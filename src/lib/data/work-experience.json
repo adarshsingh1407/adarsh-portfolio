@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Senior Software Engineer",
+    "company": "Velotio Technologies Pvt Ltd",
+    "duration": "10/2022 - Present",
+    "location": "Noida, IN",
+    "description": "Working as a Scrum Team Member for a US-based start-up(Kintent) on a contract from Velotio",
+    "projects": [
+      {
+        "name": "TrustCloud (Kintent)",
+        "role": "Senior React Engineer",
+        "summary": "Led Product-Led Growth (PLG) initiatives to drive self-serve capabilities and identify revenue opportunities. Built reusable paywall framework, developed core frontend features, and contributed to the design system. Collaborated with cross-functional teams and conducted peer reviews and training.",
+        "techStack": [
+          "ReactJS",
+          "ReactQuery",
+          "React Testing Library",
+          "Mabl",
+          "MixPanel"
+        ],
+        "url": "https://www.trustcloud.ai"
+      },
+      {
+        "name": "PlayFi DTS (TV WebApp)",
+        "role": "Senior React Engineer",
+        "summary": "Sole developer responsible for architecture, development, and delivery of a React-based TV WebApp on WebOS. Integrated with native C++ modules via Luna Bus IPC. Built Dpad-compatible design system using Enact and authored onboarding documentation.",
+        "techStack": ["ReactJS", "ReactQuery", "WebOS", "Enact"],
+        "url": "https://play-fi.com"
+      },
+      {
+        "name": "Headlamp",
+        "role": "Senior React Engineer",
+        "summary": "Developed clinician-patient platform with NextJS. Integrated patient data APIs with ReactQuery, created reusable hooks, implemented workflow mechanisms, and ensured code quality through reviews and linting practices.",
+        "techStack": ["ReactJS", "TypeScript", "ReactQuery"],
+        "url": "https://www.headlamp.com"
+      },
+      {
+        "name": "Transcarent",
+        "role": "Senior React/GraphQL Engineer",
+        "summary": "Built and integrated GraphQL queries/mutations for user data. Used Apollo Client in NextJS, fixed production bugs, and maintained code quality with automated checks and reviews.",
+        "url": "https://transcarent.com"
+      }
+    ]
+  },
+  {
+    "title": "Lead - Product Engineering",
+    "company": "FactoryOne Pvt Ltd",
+    "duration": "12/2021 - 10/2022",
+    "location": "Noida, IN",
+    "description": "Managed the front-end and back-end teams to create a SAAS-based platform for factory(MSME) management. Contributed to the back-end team to create RESTful APIs using NodeJS(ExpressJS).",
+    "projects": [
+      {
+        "name": "FactoryPlus",
+        "role": "Lead Product Engineer & Senior React Engineer",
+        "summary": "Led 10-member frontend and backend teams for an MSME factory management platform. Architected the ReactJS/NextJS frontend and NodeJS backend. Managed JIRA workflows, conducted training, and enforced quality standards. Individually delivered core features like Analytics and Reports. Enhanced report performance with AWS Lambda, and improved site performance using React Profiler and Lighthouse. Built reusable component libraries and custom hooks.",
+        "url": "https://factoryplus.in"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "name": "Adarsh Singh",
+  "title": "Senior Software Engineer | Certified ScrumMaster® (CSM®)",
+  "summary": "I am a self-motivated, front-end developer with 8+ years of experience designing and developing web applications. I'm adept at managing cross-functional teams and can contribute to the backend team as and when needed.",
+  "location": "Noida/Delhi, IN",
+  "contact": {
+    "email": {
+      "label": "adarshsingh1407@gmail.com",
+      "value": "adarshsingh1407@gmail.com"
+    },
+    "phone": {
+      "label": "+91 8800877179",
+      "value": "+91 8800877179"
+    },
+    "website": {
+      "label": "https://adarshsingh14.com/",
+      "value": "https://adarshsingh14.com/"
+    }
+  },
+  "social": {
+    "linkedin": {
+      "label": "adarshsingh1407",
+      "value": "https://www.linkedin.com/in/adarshsingh1407"
+    },
+    "github": {
+      "label": "adarshsingh1407",
+      "value": "https://github.com/adarshsingh1407"
+    },
+    "stackoverflow": {
+      "label": "https://stackoverflow.com/users/6921247/adarsh-singh",
+      "value": "https://stackoverflow.com/users/6921247/adarsh-singh"
+    },
+    "medium": {
+      "label": "https://medium.com/@adarshsingh1407",
+      "value": "https://medium.com/@adarshsingh1407"
+    },
+    "npm": {
+      "label": "adarshsingh1407",
+      "value": "https://www.npmjs.com/~adarshsingh1407"
+    },
+    "leetcode": {
+      "label": "adarshsingh1407",
+      "value": "https://leetcode.com/u/adarshsingh1407/"
+    }
+  }
+}

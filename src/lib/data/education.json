@@ -1,0 +1,42 @@
+[
+  {
+    "degree": "B.Tech. - Information Technology",
+    "institution": "Dr. A P J Abdul Kalam Technical University",
+    "years": "2011 - 2015",
+    "score": 65,
+    "subjects": [
+      "Data Structures",
+      "Algorithms",
+      "Operating Systems",
+      "Computer Networks",
+      "Database Management Systems"
+    ]
+  },
+  {
+    "degree": "12th - ISC Board",
+    "institution": "City Montessori School, Lucknow",
+    "years": "2011",
+    "score": 91,
+    "subjects": [
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "English",
+      "Computer Science"
+    ]
+  },
+  {
+    "degree": "10th - ICSE Board",
+    "institution": "City Montessori School, Lucknow",
+    "years": "2009",
+    "score": 95,
+    "subjects": [
+      "Mathematics",
+      "Science",
+      "Social Studies",
+      "English",
+      "Hindi",
+      "Computer Science"
+    ]
+  }
+]
