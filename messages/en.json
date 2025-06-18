@@ -5,9 +5,10 @@
     "nav": {
       "home": "Home",
       "blogs": "Blogs",
-      "projects": "Projects",
+      "projects": "Work Experiences",
       "contributions": "Community Contributions",
-      "contact": "Contact"
+      "contact": "Contact",
+      "education": "Education"
     }
   },
   "footer": {

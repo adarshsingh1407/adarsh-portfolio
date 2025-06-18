@@ -10,14 +10,23 @@ export function AchievementsSection() {
         <CardContent>
           <ul className="space-y-4">
             {RESUME_DATA.achievements.map((ach, idx) => (
-              <li key={idx} className="flex items-start justify-between">
+              <li
+                key={idx}
+                className={
+                  idx !== RESUME_DATA.achievements.length - 1
+                    ? "flex items-start justify-between pb-4 border-b border-muted"
+                    : "flex items-start justify-between"
+                }
+              >
                 <div className="flex gap-4">
-                  <Image
-                    src={ach.image}
-                    alt={ach.title}
-                    width={64}
-                    height={64}
-                  />
+                  <div className="relative w-16 h-16 border border-gray-200 rounded-md overflow-hidden">
+                    <Image
+                      src={ach.image}
+                      alt={ach.title}
+                      fill
+                      className="object-contain bg-white"
+                    />
+                  </div>
                   <div>
                     <div className="font-medium">{ach.title}</div>
                     <div className="text-sm text-muted-foreground">

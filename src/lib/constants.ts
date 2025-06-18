@@ -5,6 +5,7 @@ import skillsData from "./data/skills.json";
 import projectsData from "./data/projects.json";
 import achievementsData from "./data/achievements.json";
 import certificationsData from "./data/certifications.json";
+import introData from "./data/intro.json";
 
 export const SITE_CONFIG = {
   name: "Adarsh Singh",
@@ -85,6 +86,7 @@ export const TECH_STACK_COLORS: Record<string, { bg: string }> = {
 
 export const RESUME_DATA = {
   personal: { ...personalData },
+  intro: { ...introData },
   education: [...educationData],
   workExperience: [...workExperienceData],
   skills: [...skillsData],

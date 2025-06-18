@@ -61,6 +61,13 @@ export function MobileNavigation() {
                   {t("nav.projects")}
                 </Link>
                 <Link
+                  href="/education"
+                  className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
+                  onClick={closeMenu}
+                >
+                  {t("nav.education")}
+                </Link>
+                <Link
                   href="/contributions"
                   className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
                   onClick={closeMenu}

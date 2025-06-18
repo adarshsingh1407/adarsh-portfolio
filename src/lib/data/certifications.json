@@ -2,7 +2,13 @@
   {
     "title": "Certified ScrumMaster® (CSM®)",
     "issuer": "Scrum Alliance, Inc.",
-    "validity": "06/2023 - 06/2025",
+    "validity": "Jun, 2023",
     "image": "/csm-2.png"
+  },
+  {
+    "title": "ES6 Javascript: The Complete Developer's Guide",
+    "issuer": "Udemy",
+    "validity": "Jan, 2021",
+    "image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1755734400&v=beta&t=va3LHyk5EydeolsQbuyaZ8OMwbY6kCkQIRLPXryxYjw"
   }
 ]

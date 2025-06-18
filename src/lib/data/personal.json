@@ -1,7 +1,7 @@
 {
-  "name": "Adarsh Singh",
+  "name": "Hey there! 👋 I'm Adarsh.",
   "title": "Senior Software Engineer | Certified ScrumMaster® (CSM®)",
-  "summary": "I am a self-motivated, front-end developer with 8+ years of experience designing and developing web applications. I'm adept at managing cross-functional teams and can contribute to the backend team as and when needed.",
+  "summary": "I've spent the last <span class='font-bold text-lg'>10+ years</span> building cool things on the web and helping teams grow. Whether it's a SaaS platform, a clinician-patient portal, or even a smart TV app, I love diving into new challenges and making products people enjoy using. My favorite tools? <span class='font-bold text-lg text-blue-500'>ReactJS</span> and <span class='font-bold text-lg text-blue-500'>TypeScript</span> — I'm all about crafting smooth frontends, mentoring fellow engineers, and squeezing out every bit of performance. If you're into tech, teamwork, or just want to chat about building great software, you're in the right place!",
   "location": "Noida/Delhi, IN",
   "contact": {
     "email": {

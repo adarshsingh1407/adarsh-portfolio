@@ -31,9 +31,12 @@ export function ProfileSection() {
 
           <CardContent className="p-0">
             <FadeIn direction="up" delay={0.4} duration={0.9}>
-              <p className="text-base max-w-2xl mb-8">
-                {RESUME_DATA.personal.summary}
-              </p>
+              <div
+                className="text-base max-w-2xl mb-8"
+                dangerouslySetInnerHTML={{
+                  __html: RESUME_DATA.personal.summary,
+                }}
+              />
             </FadeIn>
             <FadeIn direction="up" delay={0.6} duration={0.9}>
               <div className="flex flex-col gap-2">

@@ -1,0 +1,36 @@
+{
+  "expertise": [
+    "ReactJS",
+    "TypeScript",
+    "Next.js",
+    "React Query",
+    "GraphQL (Apollo Client)",
+    "Node.js (Express)",
+    "WebOS & Enact (TV App)",
+    "REST APIs",
+    "Automated Testing (React Testing Library, Mabl)",
+    "Analytics (MixPanel)",
+    "CI/CD & Performance Optimization"
+  ],
+  "skills": [
+    "Frontend Architecture",
+    "Design Systems",
+    "Team Leadership",
+    "Cross-functional Collaboration",
+    "PLG Strategy Implementation",
+    "Performance Debugging (React Profiler, Lighthouse)",
+    "Documentation & Onboarding",
+    "Agile (Scrum, JIRA)"
+  ],
+  "currentRole": {
+    "title": "Senior Software Engineer",
+    "company": "Velotio Technologies",
+    "since": "Oct 2022",
+    "highlights": [
+      "I led frontend PLG initiatives for TrustCloud (Kintent), including reusable paywall frameworks and self-serve onboarding flows.",
+      "I single-handedly built a React-based TV WebApp for WebOS, integrating with native C++ modules and designing a Dpad-compatible UI system.",
+      "I contributed core healthcare features to Headlamp and Transcarent using ReactQuery, GraphQL, and Next.js."
+    ]
+  },
+  "journey": "My journey as a developer has been a mix of curiosity, grit, and continuous learning. I started by writing basic web apps and quickly found myself drawn toward crafting intuitive user interfaces and performant frontends. Over the years, I evolved from being a hands-on developer to leading cross-functional teams and delivering high-impact features. Whether it’s building TV apps on WebOS with native C++ integration, leading PLG initiatives for SaaS platforms, or fine-tuning app performance with profiling tools — I’ve embraced every challenge with ownership and empathy. I take pride in writing clean, maintainable code and believe that great software is built through collaboration, iteration, and a clear understanding of user needs."
+}

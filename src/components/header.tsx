@@ -68,6 +68,12 @@ export function Header() {
               {t("nav.projects")}
             </Link>
             <Link
+              href="/education"
+              className="text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 transition-colors"
+            >
+              {t("nav.education")}
+            </Link>
+            <Link
               href="/contributions"
               className="text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 transition-colors"
             >
