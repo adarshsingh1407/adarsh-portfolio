@@ -1,0 +1,170 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Adarsh Portfolio - Cursor Rules
+
+## Project Overview
+This is a Next.js 15 portfolio website for Adarsh Singh, built with TypeScript, Tailwind CSS, and internationalization support. The project uses the App Router and follows modern React patterns.
+
+## Key Technologies
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **UI Components**: Radix UI primitives with custom styling
+- **Internationalization**: next-intl
+- **Animations**: Motion library
+- **Icons**: Lucide React
+- **Package Manager**: pnpm
+
+## Project Structure
+
+### Core Files
+- **Entry Point**: [src/app/layout.tsx](mdc:src/app/layout.tsx) - Root layout with providers
+- **Main Page**: [src/app/page.tsx](mdc:src/app/page.tsx) - Homepage
+- **Configuration**: [next.config.ts](mdc:next.config.ts) - Next.js config with i18n
+- **Styling**: [src/app/globals.css](mdc:src/app/globals.css) - Global styles
+- **Constants**: [src/lib/constants.ts](mdc:src/lib/constants.ts) - Site configuration and data
+
+### App Directory Structure
+```
+src/app/
+├── [locale]/          # Internationalized routes
+├── api/              # API routes
+├── blogs/            # Blog pages
+├── contact/          # Contact page
+├── contributions/    # Contributions page
+├── education/        # Education page
+├── projects/         # Projects page
+└── layout.tsx        # Root layout
+```
+
+### Components Structure
+```
+src/components/
+├── ui/               # Reusable UI components (Radix-based)
+├── sections/         # Page sections
+├── animations/       # Animation components
+├── contributions/    # Contribution-specific components
+├── header.tsx        # Main navigation header
+├── footer.tsx        # Site footer
+├── mobile-navigation.tsx  # Mobile menu
+└── language-selector.tsx  # Language switcher
+```
+
+## Key Components
+
+### Navigation
+- **Header**: [src/components/header.tsx](mdc:src/components/header.tsx) - Main navigation with active page highlighting
+- **Mobile Navigation**: [src/components/mobile-navigation.tsx](mdc:src/components/mobile-navigation.tsx) - Mobile menu
+- **Language Selector**: [src/components/language-selector.tsx](mdc:src/components/language-selector.tsx) - i18n switcher
+
+### UI Components
+- **Dark Mode Toggle**: [src/components/elegant-dark-mode-toggle.tsx](mdc:src/components/elegant-dark-mode-toggle.tsx) - Theme switcher
+- **Scroll to Top**: [src/components/scroll-to-top.tsx](mdc:src/components/scroll-to-top.tsx) - Back to top button
+
+## Data Management
+
+### Static Data
+All portfolio data is stored in JSON files under `src/lib/data/`:
+- Personal information
+- Education history
+- Work experience
+- Skills
+- Projects
+- Achievements
+- Certifications
+
+### Site Configuration
+The [src/lib/constants.ts](mdc:src/lib/constants.ts) file exports:
+- `SITE_CONFIG` - Basic site metadata
+- `RESUME_DATA` - Combined portfolio data
+- `TECH_STACK_COLORS` - Technology color mapping
+- `BLOG_IMAGES` - Default blog images
+
+## Internationalization
+
+### Setup
+- Uses `next-intl` for internationalization
+- Configured in [next.config.ts](mdc:next.config.ts)
+- Locale files in [messages/](mdc:messages) directory
+- Next-Intl Setup: App Router setup without i18n routing
+
+### Supported Languages
+- English (`en.json`)
+- Spanish (`es.json`)
+- Japanese (`ja.json`)
+
+### Usage
+```typescript
+import { useTranslations } from "next-intl";
+const t = useTranslations("namespace");
+```
+
+## Styling Conventions
+
+### Tailwind CSS
+- Uses Tailwind CSS v4
+- Custom color palette defined in [tailwind.config.js](mdc:tailwind.config.js)
+- Dark mode support with `dark:` prefix
+
+### Component Styling
+- Prefer Tailwind classes over custom CSS
+- Use `cn()` utility for conditional classes
+- Follow responsive design patterns (mobile-first)
+
+## Development Guidelines
+
+### File Naming
+- Use kebab-case for file names
+- Use PascalCase for component names
+- Use camelCase for variables and functions
+
+### Component Structure
+- Use TypeScript for all components
+- Export components as named exports
+- Include proper TypeScript interfaces
+
+### State Management
+- Use React hooks for local state
+- Context API for global state (dark mode)
+- No external state management libraries
+
+### Performance
+- Use Next.js Image component for images
+- Implement proper loading states
+- Use React.memo for expensive components
+
+## Common Patterns
+
+### Navigation Highlighting
+The header component uses `usePathname()` to highlight the current page:
+```typescript
+const pathname = usePathname();
+<NavigationMenuLink active={pathname === "/"}>
+```
+
+### Dark Mode
+Implemented using CSS classes and context:
+- Toggle in [src/components/elegant-dark-mode-toggle.tsx](mdc:src/components/elegant-dark-mode-toggle.tsx)
+- Context in [src/contexts/dark-mode-context.tsx](mdc:src/contexts/dark-mode-context.tsx)
+
+### Animations
+- Use Motion library for animations
+- Implement fade-in effects for sections
+- Smooth transitions for interactive elements
+
+## Scripts
+- `pnpm dev` - Development server with Turbopack
+- `pnpm build` - Production build
+- `pnpm start` - Production server
+- `pnpm lint` - ESLint checking
+- `pnpm export` - Static export
+
+## Important Notes
+- The project uses the new Next.js 15 App Router
+- All text is translated in place and uses language selector dropdown which allows user to manually change language
+- Mobile-first responsive design
+- SEO optimized with proper meta tags
+- Accessibility considerations with ARIA labels

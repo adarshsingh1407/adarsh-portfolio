@@ -5,10 +5,12 @@
     "nav": {
       "home": "Home",
       "blogs": "Blogs",
-      "projects": "Work Experiences",
+      "projects": "Projects",
       "contributions": "Community Contributions",
       "contact": "Contact",
-      "education": "Education"
+      "education": "Education",
+      "pastWork": "Past Work",
+      "workExperience": "Work Experience"
     }
   },
   "footer": {
