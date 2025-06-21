@@ -12,7 +12,7 @@ export const APOS = "’";
 export const SITE_CONFIG = {
   name: "Adarsh Singh",
   logo: "/as-logo-3.png",
-  url: "https://adarshsingh.dev", // Update with your actual domain
+  url: "https://adarshsingh14.com",
 } as const;
 
 export const BLOG_IMAGES = [
@@ -104,6 +104,10 @@ export const PRIMARY_TECHNOLOGIES = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
   {
+    name: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
     name: "TypeScript",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
@@ -114,5 +118,9 @@ export const PRIMARY_TECHNOLOGIES = [
   {
     name: "GraphQL",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+  },
+  {
+    name: "Node.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   },
 ];

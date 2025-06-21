@@ -8,6 +8,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: [
+          "var(--font-poppins)",
+          "var(--font-geist-sans)",
+          "system-ui",
+          "sans-serif",
+        ],
+        mono: ["var(--font-geist-mono)", "monospace"],
+      },
       colors: {
         primary: {
           light: "#1FA4D2",

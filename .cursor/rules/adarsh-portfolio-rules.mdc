@@ -90,6 +90,8 @@ The [src/lib/constants.ts](mdc:src/lib/constants.ts) file exports:
 - Configured in [next.config.ts](mdc:next.config.ts)
 - Locale files in [messages/](mdc:messages) directory
 - Next-Intl Setup: App Router setup without i18n routing
+- Always use npm to install npm packages
+- Always run nvm use before running any npm command
 
 ### Supported Languages
 - English (`en.json`)

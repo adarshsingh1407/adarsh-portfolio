@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Roboto } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -20,10 +20,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const roboto = Roboto({
-  variable: "--font-roboto",
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
 
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Adarsh Singh - Senior Software Engineer & Open Source Contributor",
     description:
-      "Personal portfolio of Adarsh Singh - Senior Software Engineer with 8+ years of experience in web development, open source contributions, and technical leadership.",
+      "Personal portfolio of Adarsh Singh - Senior Software Engineer with 10+ years of experience in web development, open source contributions, and technical leadership.",
     images: [`${SITE_CONFIG.url}/og-image.png`],
     creator: "@adarshsingh1407",
   },
@@ -113,7 +113,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} font-sans antialiased min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} font-sans antialiased min-h-screen flex flex-col`}
       >
         <NextIntlClientProvider messages={messages}>
           <DarkModeProvider>

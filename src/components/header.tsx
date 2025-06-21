@@ -93,20 +93,6 @@ export function Header() {
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     asChild
-                    active={pathname.startsWith("/work-experience")}
-                  >
-                    <Link
-                      href="/work-experience"
-                      className="text-primary dark:text-primary-light text-sm font-medium transition-colors"
-                      data-active={pathname.startsWith("/work-experience")}
-                    >
-                      {t("nav.workExperience")}
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink
-                    asChild
                     active={pathname.startsWith("/contributions")}
                   >
                     <Link
