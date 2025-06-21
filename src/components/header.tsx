@@ -21,7 +21,7 @@ export function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-900/80 h-16">
+      <header className="sticky top-0 z-50 w-full border-b bg-background dark:border-gray-800 dark:bg-gray-900 h-16 shadow-md">
         <div className="container mx-auto flex items-center justify-between px-4 h-full">
           <div className="flex items-center bg-[#0e2a4c] rounded-lg">
             <Link href="/" className="hover:opacity-80">
@@ -134,12 +134,6 @@ export function Header() {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
-          </div>
-
-          <div className="absolute left-1/2 transform -translate-x-1/2 md:hidden">
-            <h1 className="text-lg md:text-xl font-bold leading-tight text-gray-900 dark:text-white whitespace-nowrap">
-              {t("portfolioTitle")}
-            </h1>
           </div>
 
           <div className="flex items-center gap-2">

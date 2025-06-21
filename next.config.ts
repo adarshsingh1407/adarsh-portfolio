@@ -5,7 +5,11 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["cdn-images-1.medium.com", "media.licdn.com"],
+    domains: [
+      "cdn-images-1.medium.com",
+      "media.licdn.com",
+      "leetcard.jacoblin.cool",
+    ],
   },
 };
 

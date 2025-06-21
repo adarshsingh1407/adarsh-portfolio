@@ -5,206 +5,143 @@ import {
   CardContent,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Phone, MapPin } from "lucide-react";
-import { RESUME_DATA } from "@/lib/constants";
+import { PRIMARY_TECHNOLOGIES, RESUME_DATA } from "@/lib/constants";
 import Image from "next/image";
-import { useDarkMode } from "@/contexts/dark-mode-context";
 import { FadeIn } from "@/components/animations";
 
 export function ProfileSection() {
-  const { isDarkMode } = useDarkMode();
-
   return (
-    <Card className="p-6">
-      <div className="flex flex-col md:flex-row gap-8">
-        {/* Left Section - 60% width on desktop, full width on mobile */}
-        <div className="w-full md:flex-[0.6] md:pr-0 md:border-r md:border-neutral-light">
+    <div className="flex flex-col md:flex-row gap-8">
+      {/* Left Section - 60% width on desktop, full width on mobile */}
+      <div className="w-full md:flex-[0.6]">
+        <Card className="px-8 pt-6 pb-0 gap-2">
           <FadeIn direction="up" delay={0.1} duration={0.9}>
-            <CardTitle className="text-3xl md:text-4xl font-bold mb-2">
+            <CardTitle className="text-3xl md:text-4xl font-bold mb-4">
               {RESUME_DATA.personal.name}
             </CardTitle>
-            <CardDescription className="text-lg mb-4">
+            <CardDescription className="text-lg">
               {RESUME_DATA.personal.title}
             </CardDescription>
           </FadeIn>
 
           <CardContent className="p-0">
             <FadeIn direction="up" delay={0.4} duration={0.9}>
-              <div
-                className="text-base max-w-2xl mb-8"
-                dangerouslySetInnerHTML={{
-                  __html: RESUME_DATA.personal.summary,
-                }}
-              />
-            </FadeIn>
-            <FadeIn direction="up" delay={0.6} duration={0.9}>
-              <div className="flex flex-col gap-2">
-                <div className="text-sm text-muted-foreground">Top Skills</div>
-                <div className="flex flex-wrap gap-2 max-w-2xl">
-                  {RESUME_DATA.skills.map((skill, idx) => (
-                    <Badge key={idx} variant="outline">
-                      {skill}
-                    </Badge>
-                  ))}
+              <div className="mb-4">
+                <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mt-6">
+                  Looking for a reliable developer to bring your idea to life?
+                  You&apos;re in the right place.
+                </p>
+                <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mt-4">
+                  With over
+                  <span className="font-semibold text-foreground pl-1">
+                    10 years of experience
+                  </span>
+                  , I&apos;ve helped build everything from
+                  <span className="font-semibold text-foreground px-1">
+                    SaaS platforms
+                  </span>
+                  and
+                  <span className="font-semibold text-foreground px-1">
+                    healthcare portals
+                  </span>
+                  to
+                  <span className="font-semibold text-foreground px-1">
+                    smart TV apps
+                  </span>
+                  — always with a focus on clean code, smooth user experiences,
+                  and business impact.
+                </p>
+                <div className="mt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="text-base sm:text-lg text-muted-foreground whitespace-nowrap">
+                      My top skills are:
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {PRIMARY_TECHNOLOGIES.map((tech) => (
+                        <Badge
+                          key={tech.name}
+                          variant="outline"
+                          className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md"
+                        >
+                          <Image
+                            src={tech.icon}
+                            alt={`${tech.name} icon`}
+                            width={20}
+                            height={20}
+                            className="w-5 h-5"
+                          />
+                          {tech.name}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
                 </div>
+                <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mt-6">
+                  If you need a hands-on engineer, a frontend expert, or a
+                  product-minded tech partner — let&apos;s connect.
+                </p>
+                <p className="text-base sm:text-lg font-semibold text-primary mt-6">
+                  Let&apos;s build something meaningful together. 🚀
+                </p>
               </div>
             </FadeIn>
-          </CardContent>
-        </div>
-
-        {/* Right Section - 40% width on desktop, full width on mobile */}
-        <div className="w-full md:flex-[0.4] md:mt-10">
-          <div className="flex flex-col justify-between h-full">
-            <div className="flex flex-col gap-6">
-              <FadeIn direction="up" delay={0.8} duration={0.9}>
-                <div id="contact-buttons" className="flex flex-wrap gap-2">
-                  <Button asChild variant="outline" className="w-fit">
-                    <a
-                      href={`mailto:${RESUME_DATA.personal.contact.email.value}`}
-                      title="Email"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <div className="relative w-8 h-8">
-                        <Image src="/gmail.png" alt="Email" fill />
-                      </div>
-                      <span>{RESUME_DATA.personal.contact.email.label}</span>
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" className="w-fit">
-                    <a
-                      href={`tel:${RESUME_DATA.personal.contact.phone.value}`}
-                      title="Phone"
-                      className="flex items-center gap-2"
-                    >
-                      <Phone className="w-4 h-4" />
-                      <span>{RESUME_DATA.personal.contact.phone.label}</span>
-                    </a>
-                  </Button>
-                </div>
+            <div id="contact-info" className="flex items-center gap-3 mb-6">
+              <FadeIn direction="up" delay={0.9} duration={0.9}>
+                <a
+                  href={`mailto:${RESUME_DATA.personal.contact.email.value}`}
+                  className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/gmail.svg"
+                    alt="Gmail"
+                    width={48}
+                    height={48}
+                    className="w-12 h-12"
+                  />
+                </a>
               </FadeIn>
-
-              <FadeIn direction="up" delay={0.8} duration={0.9}>
-                <div id="social-buttons" className="flex flex-wrap gap-2">
-                  <Button asChild variant="outline" className="w-fit">
-                    <a
-                      href={RESUME_DATA.personal.social.linkedin.value}
-                      title="LinkedIn"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <div className="relative w-20 h-5">
-                        <Image src="/linkedin.png" alt="LinkedIn" fill />
-                      </div>
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" className="w-fit">
-                    <a
-                      href={RESUME_DATA.personal.social.github.value}
-                      title="GitHub"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <div className="relative w-16 h-6">
-                        <Image
-                          src={isDarkMode ? "/github-dark.png" : "/github.png"}
-                          alt="Github"
-                          fill
-                        />
-                      </div>
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" className="w-fit">
-                    <a
-                      href={RESUME_DATA.personal.social.stackoverflow.value}
-                      title="Stack Overflow"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <div className="relative w-28 h-6">
-                        <Image
-                          src={
-                            isDarkMode
-                              ? "/stackoverflow-dark.svg"
-                              : "/stackoverflow.svg"
-                          }
-                          alt="Stack Overflow"
-                          fill
-                        />
-                      </div>
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" className="w-fit">
-                    <a
-                      href={RESUME_DATA.personal.social.medium.value}
-                      title="Medium"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <div className="relative w-20 h-4">
-                        <Image
-                          src={
-                            isDarkMode
-                              ? "/medium-white.png"
-                              : "/medium-black.png"
-                          }
-                          alt="Medium"
-                          fill
-                        />
-                      </div>
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" className="w-fit">
-                    <a
-                      href={RESUME_DATA.personal.social.npm.value}
-                      title="NPM"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <div className="relative w-12 h-4">
-                        <Image src="/npm.png" alt="NPM" fill />
-                      </div>
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" className="w-fit">
-                    <a
-                      href={RESUME_DATA.personal.social.leetcode.value}
-                      title="LeetCode"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <div className="relative w-20 h-6">
-                        <Image
-                          src={isDarkMode ? "/leetcode-1.png" : "/leetcode.svg"}
-                          alt="LeetCode"
-                          fill
-                        />
-                      </div>
-                    </a>
-                  </Button>
-                </div>
+              <FadeIn direction="up" delay={1.2} duration={0.9}>
+                <a
+                  href={`tel:${RESUME_DATA.personal.contact.phone.value}`}
+                  className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  <Image
+                    src="/apple-phone.svg"
+                    alt="Phone"
+                    width={64}
+                    height={64}
+                    className="w-10 h-10"
+                  />
+                </a>
+              </FadeIn>
+              <FadeIn direction="up" delay={1.5} duration={0.9}>
+                <a
+                  href={RESUME_DATA.personal.social.linkedin.value}
+                  className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                    alt="LinkedIn"
+                    width={64}
+                    height={64}
+                    className="w-10 h-10"
+                  />
+                </a>
               </FadeIn>
             </div>
+          </CardContent>
+        </Card>
+      </div>
 
-            <FadeIn direction="up" delay={0.9} duration={0.9}>
-              <div className="flex items-center gap-1">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm text-muted-foreground">
-                  {RESUME_DATA.personal.location}
-                </span>
-              </div>
-            </FadeIn>
-          </div>
+      <div className="w-full md:flex-[0.4] md:mt-10">
+        <div className="relative w-full h-[480px] rounded-lg overflow-hidden">
+          <Image src="/bg-2.png" alt="Background" fill />
         </div>
       </div>
-    </Card>
+    </div>
   );
 }

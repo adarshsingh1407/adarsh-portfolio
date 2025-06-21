@@ -7,6 +7,8 @@ import achievementsData from "./data/achievements.json";
 import certificationsData from "./data/certifications.json";
 import introData from "./data/intro.json";
 
+export const APOS = "’";
+
 export const SITE_CONFIG = {
   name: "Adarsh Singh",
   logo: "/as-logo-3.png",
@@ -94,3 +96,23 @@ export const RESUME_DATA = {
   achievements: [...achievementsData],
   certifications: [...certificationsData],
 } as const;
+
+// Technology data with icons
+export const PRIMARY_TECHNOLOGIES = [
+  {
+    name: "ReactJS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "TypeScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "Next.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    name: "GraphQL",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+  },
+];
