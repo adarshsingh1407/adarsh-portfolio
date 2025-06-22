@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     template: "%s | Adarsh Singh",
   },
   description:
-    "Personal portfolio of Adarsh Singh - Senior Software Engineer with 8+ years of experience in web development, open source contributions, and technical leadership.",
+    "10+ years of experience in web development, open source contributions, and technical leadership.",
   keywords: [
     "Adarsh Singh",
     "Software Engineer",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     siteName: SITE_CONFIG.name,
     title: "Adarsh Singh - Senior Software Engineer & Open Source Contributor",
     description:
-      "Personal portfolio of Adarsh Singh - Senior Software Engineer with 8+ years of experience in web development, open source contributions, and technical leadership.",
+      "10+ years of experience in web development, open source contributions, and technical leadership.",
     images: [
       {
         url: `${SITE_CONFIG.url}/og-image.png`,
@@ -90,14 +90,12 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "your-google-site-verification", // Add your Google Search Console verification code
-  },
   alternates: {
     canonical: SITE_CONFIG.url,
     languages: {
       "en-US": "/en",
       "es-ES": "/es",
+      "ja-JP": "/ja",
     },
   },
 };

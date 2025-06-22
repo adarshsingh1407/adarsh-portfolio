@@ -9,19 +9,19 @@ export function ProfileContent() {
         <CardTitle className="text-3xl md:text-4xl font-bold mb-4">
           {RESUME_DATA.personal.name}
         </CardTitle>
-        <CardDescription className="text-lg">
+        <CardDescription className="text-xl md:text-2xl ">
           {RESUME_DATA.personal.title}
         </CardDescription>
       </FadeIn>
 
       <FadeIn direction="up" delay={0.4} duration={0.9}>
         <div className="mb-4">
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mt-6">
+          <p className="text-base sm:text-xl text-muted-foreground leading-relaxed mt-6">
             Looking for a reliable developer to bring your idea to life?
             <br />
             You&apos;re in the right place.
           </p>
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mt-4">
+          <p className="text-base sm:text-xl text-muted-foreground leading-relaxed mt-4">
             With over
             <span className="font-semibold text-foreground pl-1">
               10 years of experience
@@ -41,7 +41,7 @@ export function ProfileContent() {
             — always with a focus on clean code, smooth user experiences, and
             business impact.
           </p>
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mt-6">
+          <p className="text-base sm:text-xl text-muted-foreground leading-relaxed mt-6">
             If you need a hands-on engineer, a frontend expert, or a
             product-minded tech partner — let&apos;s connect.
           </p>
