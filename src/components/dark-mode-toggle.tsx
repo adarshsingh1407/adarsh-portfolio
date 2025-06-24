@@ -2,36 +2,28 @@
 
 import { Moon, Sun } from "lucide-react";
 import { Switch } from "@/components/ui/switch";
-import { useTranslations } from "next-intl";
 import { useDarkMode } from "@/contexts/dark-mode-context";
 
 interface DarkModeToggleProps {
   showLabel?: boolean;
 }
 
-export function DarkModeToggle({ showLabel = true }: DarkModeToggleProps) {
-  const t = useTranslations("header");
+export function DarkModeToggle({ showLabel = false }: DarkModeToggleProps) {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center space-x-2">
+      <Switch
+        checked={isDarkMode}
+        onCheckedChange={toggleDarkMode}
+        className="data-[state=checked]:bg-gray-800"
+      />
       {showLabel && (
-        <span className="text-sm font-medium hidden md:block mr-2">
-          {t("darkMode")}
+        <span className="text-sm font-medium">
+          {isDarkMode ? "Dark Mode" : "Light Mode"}
         </span>
       )}
-      <div className="flex items-center space-x-1">
-        {!showLabel && (
-          <div className="p-1">
-            {isDarkMode ? (
-              <Moon className="h-4 w-4" />
-            ) : (
-              <Sun className="h-4 w-4" />
-            )}
-          </div>
-        )}
-        <Switch checked={isDarkMode} onCheckedChange={toggleDarkMode} />
-      </div>
+      {isDarkMode ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
     </div>
   );
 }

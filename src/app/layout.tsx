@@ -5,8 +5,6 @@ import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ScrollToTop } from "@/components/scroll-to-top";
-import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
 import { DarkModeProvider } from "@/contexts/dark-mode-context";
 import { SITE_CONFIG } from "@/lib/constants";
 
@@ -54,6 +52,15 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/manifest.json",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -62,21 +69,12 @@ export const metadata: Metadata = {
     title: "Adarsh Singh - Senior Software Engineer & Open Source Contributor",
     description:
       "10+ years of experience in web development, open source contributions, and technical leadership.",
-    images: [
-      {
-        url: `${SITE_CONFIG.url}/og-image.png`,
-        width: 1200,
-        height: 630,
-        alt: "Adarsh Singh Portfolio",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Adarsh Singh - Senior Software Engineer & Open Source Contributor",
     description:
       "Personal portfolio of Adarsh Singh - Senior Software Engineer with 10+ years of experience in web development, open source contributions, and technical leadership.",
-    images: [`${SITE_CONFIG.url}/og-image.png`],
     creator: "@adarshsingh1407",
   },
   robots: {
@@ -92,35 +90,25 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: SITE_CONFIG.url,
-    languages: {
-      "en-US": "/en",
-      "es-ES": "/es",
-      "ja-JP": "/ja",
-    },
   },
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const locale = await getLocale();
-  const messages = await getMessages();
-
   return (
-    <html lang={locale}>
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} font-sans antialiased min-h-screen flex flex-col`}
       >
-        <NextIntlClientProvider messages={messages}>
-          <DarkModeProvider>
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-            <ScrollToTop />
-          </DarkModeProvider>
-        </NextIntlClientProvider>
+        <DarkModeProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <ScrollToTop />
+        </DarkModeProvider>
       </body>
     </html>
   );

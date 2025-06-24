@@ -3,12 +3,9 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
-import { LanguageSelector } from "@/components/language-selector";
 
 export function MobileNavigation() {
   const [isOpen, setIsOpen] = useState(false);
-  const t = useTranslations("header");
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
@@ -44,48 +41,43 @@ export function MobileNavigation() {
                   className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
                   onClick={closeMenu}
                 >
-                  {t("nav.home")}
-                </Link>
-                <Link
-                  href="/blogs"
-                  className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
-                  onClick={closeMenu}
-                >
-                  {t("nav.blogs")}
+                  Home
                 </Link>
                 <Link
                   href="/projects"
                   className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
                   onClick={closeMenu}
                 >
-                  {t("nav.projects")}
+                  Work Experience
                 </Link>
                 <Link
                   href="/education"
                   className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
                   onClick={closeMenu}
                 >
-                  {t("nav.education")}
+                  Education
+                </Link>
+                <Link
+                  href="/blogs"
+                  className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
+                  onClick={closeMenu}
+                >
+                  Blogs
                 </Link>
                 <Link
                   href="/contributions"
                   className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
                   onClick={closeMenu}
                 >
-                  {t("nav.contributions")}
+                  Community Contributions
                 </Link>
                 <Link
                   href="/contact"
                   className="block py-2 px-3 text-primary dark:text-primary-light text-sm font-medium hover:underline underline-offset-4 rounded-lg transition-colors"
                   onClick={closeMenu}
                 >
-                  {t("nav.contact")}
+                  Contact Me
                 </Link>
-              </div>
-
-              <div>
-                <label className="sr-only">Language</label>
-                <LanguageSelector />
               </div>
             </div>
           </div>

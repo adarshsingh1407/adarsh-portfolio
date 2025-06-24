@@ -11,7 +11,7 @@ export const APOS = "’";
 
 export const SITE_CONFIG = {
   name: "Adarsh Singh",
-  logo: "/as-logo-3.png",
+  logo: "/adarsh-dp.png",
   url: "https://adarshsingh14.com",
 } as const;
 

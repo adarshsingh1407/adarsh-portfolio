@@ -1,20 +1,16 @@
 "use client";
 
 import { Card } from "@/components/ui/card";
-import { useTranslations } from "next-intl";
 import { Building2, Calendar, MapPin, ExternalLink } from "lucide-react";
 import { RESUME_DATA, TECH_STACK_COLORS } from "@/lib/constants";
 import { formatDuration } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 
 export default function ProjectsPage() {
-  const t = useTranslations();
-
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">{t("pages.projects.title")}</h1>
-        <p className="text-muted-foreground">{t("pages.projects.subtitle")}</p>
+        <h1 className="text-3xl font-bold mb-2">Projects</h1>
       </div>
 
       <div className="flex flex-col gap-4">

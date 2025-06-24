@@ -3,7 +3,7 @@
 [![Website](https://img.shields.io/badge/adarshsingh14.com-Live-blue)](https://adarshsingh14.com)
 [![Vercel](https://vercelbadge.vercel.app/api/adarshsingh1407/adarsh-portfolio)](https://adarshsingh14.com)
 
-A modern, multilingual portfolio and blog for Adarsh Singh, built with Next.js, React, and Tailwind CSS. Showcases projects, blogs, open source contributions, and more.
+A modern portfolio and blog for Adarsh Singh, built with Next.js, React, and Tailwind CSS. Showcases projects, blogs, open source contributions, and more.
 
 ---
 
@@ -19,7 +19,6 @@ A modern, multilingual portfolio and blog for Adarsh Singh, built with Next.js, 
 - **React 19**: UI library for building interactive user interfaces.
 - **TypeScript**: Type safety and better developer experience.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
-- **next-intl**: Internationalization (i18n) support for multiple languages.
 - **Radix UI**: Accessible, unstyled UI primitives for building custom components.
 - **Lucide React**: Icon library for modern, consistent icons.
 - **date-fns**: Modern JavaScript date utility library.
@@ -30,7 +29,6 @@ A modern, multilingual portfolio and blog for Adarsh Singh, built with Next.js, 
 
 - **Next.js** for SEO, performance, and hybrid rendering.
 - **Tailwind CSS** for fast, maintainable styling.
-- **next-intl** for seamless multi-language support.
 - **Radix UI** for accessible, composable UI building blocks.
 - **TypeScript** for robust, scalable code.
 
@@ -43,7 +41,6 @@ adarsh-portfolio/
 ├── public/                # Static assets (images, favicon, etc.)
 ├── src/
 │   ├── app/               # Next.js app directory (routing, pages)
-│   │   ├── [locale]/      # Locale-specific routes
 │   │   ├── api/           # API routes (e.g., GitHub repos)
 │   │   ├── blogs/         # Blog pages
 │   │   ├── contact/       # Contact page
@@ -55,7 +52,6 @@ adarsh-portfolio/
 │   │   ├── sections/      # Page sections (profile, work, etc.)
 │   │   └── ui/            # UI primitives (buttons, cards, etc.)
 │   ├── contexts/          # React context providers
-│   ├── i18n/              # Internationalization config
 │   ├── lib/               # Utilities, constants, and data
 │   │   └── data/          # JSON data (personal, education, etc.)
 │   └── styles/            # Global and component styles
@@ -82,7 +78,6 @@ Visit [http://localhost:3000](http://localhost:3000) to view the site locally.
 
 ## 📝 Features
 
-- Multilingual (English, Spanish, Japanese)
 - Responsive, accessible design
 - Projects, blogs, and open source contributions
 - Dark mode toggle

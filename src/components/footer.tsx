@@ -1,13 +1,11 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import { useDarkMode } from "@/contexts/dark-mode-context";
 import { RESUME_DATA } from "@/lib/constants";
 import { Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Footer() {
-  const t = useTranslations("footer");
   const { isDarkMode } = useDarkMode();
   const currentYear = new Date().getFullYear();
 
@@ -24,68 +22,39 @@ export function Footer() {
             isDarkMode ? "text-gray-300" : "text-muted-foreground"
           }`}
         >
-          {t("copyright", { year: currentYear })}
+          © {currentYear} Adarsh Singh. All rights reserved.
         </p>
 
         {/* Contact information on the right */}
         <div className="flex items-center gap-4">
-          {/* Email - hidden on mobile, shown with icon on desktop */}
-          <a
-            href={`mailto:${RESUME_DATA.personal.contact.email.value}`}
-            className={`hidden md:flex items-center gap-2 text-sm transition-colors hover:underline ${
-              isDarkMode
-                ? "text-gray-300 hover:text-white"
-                : "text-muted-foreground hover:text-foreground"
-            }`}
-            title="Email"
+          <Button
+            variant="ghost"
+            size="sm"
+            className="h-8 px-2 text-xs"
+            asChild
           >
-            <Mail className="w-4 h-4" />
-            <span className="hidden lg:inline">
-              {RESUME_DATA.personal.contact.email.label}
-            </span>
-          </a>
-
-          {/* Phone - hidden on mobile, shown with icon on desktop */}
-          <a
-            href={`tel:${RESUME_DATA.personal.contact.phone.value}`}
-            className={`hidden md:flex items-center gap-2 text-sm transition-colors hover:underline ${
-              isDarkMode
-                ? "text-gray-300 hover:text-white"
-                : "text-muted-foreground hover:text-foreground"
-            }`}
-            title="Phone"
+            <a
+              href={`mailto:${RESUME_DATA.personal.contact.email.value}`}
+              className="flex items-center gap-1"
+            >
+              <Mail className="h-3 w-3" />
+              <span className="hidden sm:inline">Email</span>
+            </a>
+          </Button>
+          <Button
+            variant="ghost"
+            size="sm"
+            className="h-8 px-2 text-xs"
+            asChild
           >
-            <Phone className="w-4 h-4" />
-            <span className="hidden lg:inline">
-              {RESUME_DATA.personal.contact.phone.label}
-            </span>
-          </a>
-
-          {/* Mobile contact buttons - shown only on mobile */}
-          <div className="flex items-center gap-2 md:hidden">
-            <Button
-              asChild
-              variant="outline"
-              size="icon"
-              className="rounded-full"
-              title="Email"
+            <a
+              href={`tel:${RESUME_DATA.personal.contact.phone.value}`}
+              className="flex items-center gap-1"
             >
-              <a href={`mailto:${RESUME_DATA.personal.contact.email.value}`}>
-                <Mail className="w-4 h-4" />
-              </a>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="icon"
-              className="rounded-full"
-              title="Phone"
-            >
-              <a href={`tel:${RESUME_DATA.personal.contact.phone.value}`}>
-                <Phone className="w-4 h-4" />
-              </a>
-            </Button>
-          </div>
+              <Phone className="h-3 w-3" />
+              <span className="hidden sm:inline">Phone</span>
+            </a>
+          </Button>
         </div>
       </div>
     </footer>

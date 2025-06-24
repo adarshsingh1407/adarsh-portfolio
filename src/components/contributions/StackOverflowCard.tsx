@@ -10,7 +10,7 @@ export function StackOverflowCard() {
   const data = stackoverflowData;
 
   return (
-    <Card className="w-full">
+    <Card className="w-full mt-12">
       <CardHeader className="flex flex-col items-center gap-2 py-1">
         <div className="flex justify-between items-center w-full">
           <div>
